@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="{{ url_for('static',filename='source/pic/wifi1.png') }}" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' href="{{ url_for('static',filename='css/style.css') }}">
+    <!-- <script type='text/javascripts' src="{{ url_for('static',filename='scripts/scripts.js') }}"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WPD Router</title>
+</head>
+
+<body style="background-image: url('static/source/pic/hack2.jpg');">
+    <h3>WPD Router</h3>
+    <form action="/" method="POST" class="lpanel">
+        <table>
+            <tr>
+                <td align="center" class='head'>MONITOR</td>
+            </tr>
+            <tr>
+                <td><input type="text" name='userid' id='userid' placeholder="User" class="ibox"></td>
+            </tr>
+            <tr>
+                <td><input type="password" name='passwd' id='passwd' placeholder="password" class="ibox"></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" value="Sign In"></td>
+            </tr>
+            <tr>
+                <td>{{ warning }}</td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

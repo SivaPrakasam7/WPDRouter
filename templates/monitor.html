@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WPD Router</title>
+    <link rel="icon" href="{{ url_for('static',filename='source/pic/wifi1.png') }}" type="image/x-icon">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel='stylesheet' type='text/css' href="{{ url_for('static',filename='css/style.css') }}">
+    <script src="{{ url_for('static',filename='scripts/scripts.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body style="background-image: url('static/source/pic/hack2.jpg');">
+    <navtitle id='mainnav'>
+        <nav>
+            <div class="wifi">
+                <div class="wifitrack" id="track1"></div>
+                <div class="wifitrack" id="track2"></div>
+                <div class="wifitrack" id="track3"></div>
+                <div class="wifitrack" id="track4"></div>
+            </div>
+            <h3>WPD ROUTER</h3>
+        </nav>
+        <div class="panel">
+            <div class="containerlist" id="wifi">
+            </div>
+            <div class="containerlist" id='forensic' style="display: block;">
+            </div>
+            <div class="containerlist" id='clients'>
+            </div>
+            <div class="containerlist" id="view">
+            </div>
+        </div>
+        <nav style="width: 100%;">
+            <a class="a active" href="#wifi">WIFI</a>
+            <a class="a" href="#forensic">PACKETS</a>
+            <a class="a" href="#clients">CLIENTS</a>
+        </nav>
+        <script>
+            var header = document.getElementById("mainnav");
+            var btn = header.getElementsByClassName("a");
+            for (var i = 0; i < btn.length; i++) {
+                btn[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+    </navtitle>
+    <div id="insertnow"></div>
+    <script>
+        $("document").ready(function() {
+            setInterval(function() {
+                $.ajax({
+                    url: "/monitor/",
+                    success: function(data) {
+                        console.log(data);
+                        datalign(data);
+                    }
+                });
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>

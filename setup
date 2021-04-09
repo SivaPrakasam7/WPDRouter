@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Python version 3.6.9 installation
+
+wget https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tar.xz
+
+tar -xvf Python-3.6.9.tar.xz
+
+cd Python-3.6.9/
+
+./configure
+
+make
+
+make install
+
+cd ..
+
+# pip3 Requirements packeages
+python3 -m pip install -r static/source/requirement.txt
+
+# python3 -m spacy download en
+
+python3.6 -m pip install -r static/source/requirement.txt
+
+# Linux requirement
+
+chmod +x router
+
+sudo apt-get install -y hostapd dnsmasq cpuinfo libnetfilter-queue-dev
+
+# x11vnc -storepasswd
+
+# dpkg -i static/source/libs/*
+
+sudo apt-get install --fix-broken
+
+sudo apt-get install libbz2-dev
+
+chmod +x static/source/ngrok
+
+./static/source/ngrok authtoken 1iwPCBah3nttCu9jlowu3a609CT_6NSquxiFCvWZjt8zm1fUi
+
+echo "authtoken: 1iwPCBah3nttCu9jlowu3a609CT_6NSquxiFCvWZjt8zm1fUi
+tunnels:
+  rdesk:
+    proto: http
+    addr: 8081
+  admin:
+    proto: http
+    addr: 5000
+" > /root/.ngrok2/ngrok.yml
