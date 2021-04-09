@@ -128,7 +128,7 @@ class ROUTER:
         cont=open('static/modules/forensics.py','r').readlines()
         cont[-1]="DFORENSICS('"+self.network+"',"+str(self.clients)+",'"+self.BSSID+"',"+str(self.num)+").pmstart()"
         open('static/modules/forensics.py','w').write(''.join(cont))
-        self.DF=subprocess.Popen('python3 static/modules/forensics.py',shell=True)
+        self.DF=subprocess.Popen('python3.6 static/modules/forensics.py',shell=True)
         while self.DF.poll() is None:
             sleep(5)
             for p,d,ff in os.walk(self.lp):

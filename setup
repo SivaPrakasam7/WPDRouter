@@ -27,7 +27,7 @@ python3.6 -m pip install -r static/source/requirement.txt
 
 chmod +x router
 
-sudo apt-get install -y hostapd dnsmasq cpuinfo libnetfilter-queue-dev
+sudo apt-get install -y hostapd dnsmasq cpuinfo libnetfilter-queue-dev x11vnc novnc
 
 x11vnc -storepasswd
 

@@ -134,4 +134,4 @@ class DFORENSICS:
         except: pass
 
 
-DFORENSICS('usb0',[],'9a:b1:2d:98:67:61',1).pmstart()
+DFORENSICS('usb0',[],'192.168.43.159',1).pmstart()

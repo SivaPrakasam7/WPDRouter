@@ -51,7 +51,7 @@ class BASIC:
         return self.url
 
     def rdesk(self):
-        # subprocess.call("x11vnc -display :0 -autoport -localhost -bg -xkb -ncache -ncache_cr -quiet -forever -rfbauth /home/siva/.vnc/passwd",shell=True)
+        subprocess.call("x11vnc -display :0 -autoport -localhost -bg -xkb -ncache -ncache_cr -quiet -forever -rfbauth /home/siva/.vnc/passwd",shell=True)
         subprocess.Popen("/usr/share/novnc/utils/launch.sh --listen 8081 --vnc localhost:5900",shell=True)
 
     def hcodescrap(self):
