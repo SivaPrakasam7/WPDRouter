@@ -1,6 +1,6 @@
 # WPDRouter
 
-#run with follownig command
+# run with follownig command
 python router
 
 # required
