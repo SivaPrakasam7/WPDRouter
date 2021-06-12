@@ -39,9 +39,7 @@ sudo apt-get install libbz2-dev
 
 chmod +x static/source/ngrok
 
-./static/source/ngrok authtoken 1iwPCBah3nttCu9jlowu3a609CT_6NSquxiFCvWZjt8zm1fUi
-
-echo "authtoken: 1iwPCBah3nttCu9jlowu3a609CT_6NSquxiFCvWZjt8zm1fUi
+echo "authtoken: {ngrok authendication token}
 tunnels:
   rdesk:
     proto: http
