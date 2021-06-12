@@ -34,8 +34,8 @@ class ROUTER:
         self.PASSWD='12345678'
         self.BASEDIR=['/root/']
         self.result={}
-        self.mail="fknown0@gmail.com"
-        self.passwd="(#*7$iva*#)"
+        self.mail="{your mail id with less secure app permission}"
+        self.passwd="{password}"
         self.num=1
         self.BS=BASIC()
         self.url=[]
