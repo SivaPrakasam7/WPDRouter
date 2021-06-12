@@ -41,8 +41,20 @@ You may modify your configuration in router file
             self.lp='static/logs/info/'
             self.pp='static/logs/evidence/'
             self.clients=open('static/APconf/accept','r').readlines()
+
+AND setup file
+---
+        echo "authtoken: {ngrok authendication token}
+            tunnels:
+            rdesk:
+                proto: http
+                addr: 8081
+            admin:
+                proto: http
+                addr: 5000
+            " > /root/.ngrok2/ngrok.yml
         
-Hardware requirement - 2 wlan interface and 1 ethernet connection\n
-wlan0 - enable internet access\n
-wlan1 - monitoring Dot11 packets around that\n
-ethernet - network access transfer to the wlan0 interface
+Hardware requirement - 2 wlan interface and 1 ethernet connection<br>
+wlan0 - enable internet access<br>
+wlan1 - monitoring Dot11 packets around that<br>
+ethernet - network access transfer to the wlan0 interface<br>
