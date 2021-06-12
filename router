@@ -26,16 +26,16 @@ from static.modules.wifi import *
 class ROUTER:
     def __init__(self):
         self.wrun,self.prun,self.frun,self.wifi=True,True,True,{}
-        self.SSID='testing'
+        self.SSID='{Setup your SSID}'
         self.BSSID=''
         self.IP='192.168.28.1'
         self.drange='192.168.28.30'
         self.dtime='24'
-        self.PASSWD='12345678'
+        self.PASSWD='{Setup router password}'
         self.BASEDIR=['/root/']
         self.result={}
         self.mail="{your mail id with less secure app permission}"
-        self.passwd="{password}"
+        self.passwd="{mail password}"
         self.num=1
         self.BS=BASIC()
         self.url=[]
