@@ -6,8 +6,8 @@ Description
   
 run with follownig command
 ---
-  root#./setup\n
-  root# python router
+    root#./setup
+    root# python router
 
 required
 ---
