@@ -6,7 +6,7 @@ Description
   
 run with follownig command
 ---
-  root#./setup
+  root#./setup\n
   root# python router
 
 required
@@ -42,7 +42,7 @@ You may modify your configuration in router file
             self.pp='static/logs/evidence/'
             self.clients=open('static/APconf/accept','r').readlines()
         
-Hardware requirement - 2 wlan interface and 1 ethernet connection
-wlan0 - enable internet access
-wlan1 - monitoring Dot11 packets around that
+Hardware requirement - 2 wlan interface and 1 ethernet connection\n
+wlan0 - enable internet access\n
+wlan1 - monitoring Dot11 packets around that\n
 ethernet - network access transfer to the wlan0 interface
