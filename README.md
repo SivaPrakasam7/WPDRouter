@@ -2,7 +2,7 @@
 
 Description
 ---
-  Wireless security, Pen-testing, Digital Forensics techniques included. That wirelessly penetrate all connected clients then monitor Dot11 signal. Create Documentation and pen-testing documentation. It has monitoring web interface networking activity.
+  Wireless security, Pen-testing, Digital Forensics techniques included. That wirelessly penetrate all connected clients then monitor Dot11 signal. Create Documentation and pen-testing documentation. Able to monitor networking activity in web interface.
   
 run with follownig command
 ---
