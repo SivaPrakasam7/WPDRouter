@@ -41,7 +41,7 @@ class DFORENSICS:
 
     def scan(self,p):
         try: Thread(target=self.devidence,args=(p,)).start()
-        except Exception as e:print(e)
+        except Exception as e:pass
         sp=self.pmodify(p)
         if sp == 'drop':
             p.drop()
@@ -118,7 +118,7 @@ class DFORENSICS:
                     self.handle('os.mknod(self.lp+"/"+val+".log")',ipd)
                     with open(self.lp+'/'+ips+'.log','a') as fp: fp.write(str(info)+'\n')
                     with open(self.lp+'/'+ipd+'.log','a') as fp: fp.write(str(info)+'\n')
-        except Exception as e:print(e)
+        except Exception as e:pass
         # print(info)
 
     def fold(self):self.disallow=open('static/APconf/dnsblock','r').readlines()
@@ -134,4 +134,4 @@ class DFORENSICS:
         except: pass
 
 
-DFORENSICS('usb0',[],'192.168.43.159',1).pmstart()
+DFORENSICS('usb0',[],'46:66:11:b0:52:55',1).pmstart()

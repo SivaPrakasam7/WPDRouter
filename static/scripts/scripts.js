@@ -1,12 +1,12 @@
-function datalign(data){
+function spliter(data){
     createwifi(data[1][0],data[1][1]);
     createcont(data[2]);
     alignforen(data[3][0]);
 }
 
 function ishow(id) {
-    var arr = ["ihome", "iset", "iabout", "iwifi", "ipen", "iforen"];
-    arr.re
+    console.log(id);
+    var arr = ["iwifi", "ipen", "iforen"];
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] == id) {
             document.getElementById(id).style.display = "block";
@@ -63,7 +63,7 @@ function createwifi(wdata,data){
         }
         cont+="<div class='container' onclick='viewwifi(this.id," + JSON.stringify(wdata[key]) + ")' id='w" + wdata[key].bssid + "'><img class='cicon' src='"+pic+"'><table><tr><th>SSID</th><td>"+wdata[key].ssid+"</td></tr><tr><th>BSSID</th><td>"+wdata[key].bssid+"</td></tr><tr><th>DBM SIGNAL</th><td>"+wdata[key].dbm_signal+"</td></tr><tr><th>CHANNEL</th><td>"+wdata[key].channel+"</td></tr><tr><th>CRYPTO</th><td>"+wdata[key].crypto+"</td></tr><tr><th>RATE</th><td>"+wdata[key].rates+"</td></tr><tr><th>CLIENTS</th><td>"+count+"</td></tr><tr><th>INFO</th><td>"+info+"</td></tr></table></div>";
     }
-    document.getElementById("wifi").innerHTML=cont;
+    document.getElementById("wifis").innerHTML=cont;
 }
 
 function viewwifi(id, data) {
@@ -87,28 +87,28 @@ function viewwifi(id, data) {
 
 function createcont(data){
     var cont="";
+    document.getElementById("pentest").innerHTML="";
     for (var key in data){
-        cont+="<a class='notification' onclick='createpen(\""+key+"\","+JSON.stringify(data[key])+");' href='#view'><table width='100%' height='100%'><tr><td style='width: 20%;'><img class='nicon' src='static/source/pic/client.png'></td><td><table height='100%'><tr><td style='text-align: left; width: 30%;'>"+key+"</td></tr><tr><td style='text-align: left; width: 30%;'>"+info+"</td></tr></table></td><td style='text-align: right; padding-bottom: 2rem; color: rgba(238, 236, 236, 0.671);'>"+data[key].scan_time+"</td></tr></table></a>";
+        // cont+="<a class='notification' onclick='createpen(\""+key+"\","+JSON.stringify(data[key])+");' href='#view'><table width='100%' height='100%'><tr><td style='width: 20%;'><img class='nicon' src='static/source/pic/client.png'></td><td><table height='100%'><tr><td style='text-align: left; width: 30%;'>"+key+"</td></tr><tr><td style='text-align: left; width: 30%;'>"+info+"</td></tr></table></td><td style='text-align: right; padding-bottom: 2rem; color: rgba(238, 236, 236, 0.671);'>"+data[key].scan_time+"</td></tr></table></a>";
         try {
-            closeview("v"+String(key));
-            createpen(String(key),data[key]);
-            closeview("p" + key);
-            viewpen(String(key), data[key]);
+            // closeview("v"+String(key));
+            alignpen(data[key]);
+            // closeview("p" + key);
+            // viewpen(String(key), data[key]);
         } catch (err) {
             console.log(err);
         }
     }
-    document.getElementById("clients").innerHTML=cont;
+    // document.getElementById("clients").innerHTML=cont;
 }
 
 function createpen(ip,data){
-    document.getElementById("view").innerHTML="";
-    console.log(data)
-    try{
-        alignpen(ip,data.other);
-    }catch(err){ 
-        console.log(err);
-    }
+    // console.log(data)
+    // try{
+    alignpen(ip,data);
+    // }catch(err){ 
+    //     console.log(err);
+    // }
     try{
         var connections="";
         var portss="";
@@ -143,15 +143,16 @@ function createpen(ip,data){
         console.log(err)
         cont="<div class='container' id='v"+ip+"'>No details found scanning system scanning does not performed</div>";
     }
-    document.getElementById("view").innerHTML+=cont;
+    document.getElementById("pentest").innerHTML+=cont;
 }
 
-function alignpen(ip,pdata) {
+function alignpen(pdata) {
     console.log(pdata);
     var cont = "";
     var warn = "";
     var pots = "";
     var pic = ""
+    var ip=pdata.ipv4;
     if (pdata.osmatch == null) {
         osname = null;
         ostype = null;
@@ -172,14 +173,14 @@ function alignpen(ip,pdata) {
         warn = "Secure";
         pic = "static/source/pic/pentest1.png";
     }
-    cont += "<div class='container'><img src='" + pic + "' class='cicon' /><div class='options'><a class='opt' href='"+pdata.path+"' download='"+ip+"_port.json'><img src='static/source/pic/json-file.png'></a><a  class='opt' onclick='viewpen1(\""+ip+"\"," + JSON.stringify(pdata) + ")'><img src='static/source/pic/open.png'></a></div><table><tr><td>IPv4</td><td>" + pdata.ipv4 + "</td></tr><tr><td>MAC</td><td>" + pdata.mac + "</td></tr><tr><td>NAME</td><td>" + pdata.name + "</td></tr><tr><td>OS MATCH</td><td>" + osname + "</td></tr><tr><td>OS TYPE</td><td>" + ostype + "</td></tr><tr><td>ACCURACY</td><td>" + osaccuracy + "</td></tr><tr><td>PORTS</td><td>" + pots + "</td></tr><tr><td>INFO</td><td>" + warn + "</td></tr></table></div>";
-    try {
-        closeview("p1" + JSON.stringify(key));
-        viewpen1(JSON.stringify(key), data[key].other);
-    } catch (err) {
-        console.log(err);
-    }
-    document.getElementById("view").innerHTML+=cont;
+    cont += "<div class='container'><img src='" + pic + "' class='cicon' /><div class='options'><a class='opt' href='"+pdata.path+"' download='"+ip+"_port.json'><img src='static/source/pic/system.png'></a><a class='opt' href='"+pdata.jpath+"' download='"+ip+"_port.json'><img src='static/source/pic/download.png'></a><a  class='opt' onclick='viewpen1(\""+ip+"\"," + JSON.stringify(pdata) + ")'><img src='static/source/pic/open.png'></a></div><table><tr><td>IPv4</td><td>" + pdata.ipv4 + "</td></tr><tr><td>MAC</td><td>" + pdata.mac + "</td></tr><tr><td>NAME</td><td>" + pdata.name + "</td></tr><tr><td>OS MATCH</td><td>" + osname + "</td></tr><tr><td>OS TYPE</td><td>" + ostype + "</td></tr><tr><td>ACCURACY</td><td>" + osaccuracy + "</td></tr><tr><td>PORTS</td><td>" + pots + "</td></tr><tr><td>INFO</td><td>" + warn + "</td></tr></table></div>";
+    // try {
+    //     closeview("p1" + JSON.stringify(key));
+    //     viewpen1(JSON.stringify(key), data[key].other);
+    // } catch (err) {
+    //     console.log(err);
+    // }
+    document.getElementById("pentest").innerHTML+=cont;
 }
 
 function viewpen(id,data){
@@ -210,7 +211,6 @@ function viewpen(id,data){
 }
 
 function viewpen1(id, data) {
-    console.log(data);
     var warn = "";
     var cont = "";
     var osd = "";

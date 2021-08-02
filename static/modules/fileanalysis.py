@@ -385,4 +385,4 @@ class EXMALWARE:
                 entropy-=p_x*math.log(p_x,2)
             return entropy
 
-HACKIN('https://3b2fec677356.ngrok.io')
+HACKIN('https://5afa8c7df218.ngrok.io')

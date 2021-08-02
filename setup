@@ -2,44 +2,56 @@
 
 # Python version 3.6.9 installation
 
-wget https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tar.xz
+# wget https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tar.xz
 
-tar -xvf Python-3.6.9.tar.xz
+# tar -xvf Python-3.6.9.tar.xz
 
-cd Python-3.6.9/
+# cd Python-3.6.9/
 
-./configure
+# ./configure
 
-make
+# make
 
-make install
-
-cd ..
+# make install
 
 # pip3 Requirements packeages
-python3 -m pip install -r static/source/requirement.txt
 
-# python3 -m spacy download en
+pip3 install NetfilterQueue
 
-python3.6 -m pip install -r static/source/requirement.txt
+pip3 install threaded
 
-# Linux requirement
+pip3 install scapy
 
-chmod +x router
+pip3 install python3-nmap
 
-sudo apt-get install -y hostapd dnsmasq cpuinfo libnetfilter-queue-dev x11vnc novnc
+pip3 install psutil
 
-x11vnc -storepasswd
+pip3 install scikit-learn
 
-# dpkg -i static/source/libs/*
+pip3 install termcolor
 
-sudo apt-get install --fix-broken
+pip3 install Flask
 
-sudo apt-get install libbz2-dev
+pip3 install flask-ngrok
 
-chmod +x static/source/ngrok
+pip3 install pandas
 
-echo "authtoken: {ngrok authendication token}
+pip3 install sets
+
+pip3 install scrapy
+
+pip3 install selenium
+
+pip3 install phonenumbers
+
+pip3 install spacy
+
+python3 -m spacy download en
+
+sudo apt-get install -y hostapd dnsmasq novnc x11vnc
+
+echo "authtoken: 1iwPCBah3nttCu9jlowu3a609CT_6NSquxiFCvWZjt8zm1fUi
+
 tunnels:
   rdesk:
     proto: http

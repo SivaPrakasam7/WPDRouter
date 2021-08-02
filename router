@@ -1,54 +1,48 @@
 #!/bin/python3
 
 # predefined modules
-import psutil
-import os
-import subprocess
-import pprint
-import copy
-import sqlite3 as sql
-
 from termcolor import colored
-from flask import Flask,render_template,request,jsonify,session
+from flask import Flask,render_template,request,jsonify,request,session
 from flask_ngrok import run_with_ngrok
-from threading import Thread
-from time import sleep
 from werkzeug.datastructures import FileStorage
-from scapy.all import *
+
+import sqlite3 as sql
 # created modules
 from static.modules.basic import *
+# from static.modules.forensics import *
 from static.modules.pentest import *
 from static.modules.packages import *
 from static.modules.wifi import *
 
 # CLASSES
+
 # Main class
 class ROUTER:
     def __init__(self):
         self.wrun,self.prun,self.frun,self.wifi=True,True,True,{}
-        self.SSID='{Setup your SSID}'
+        self.SSID=''
         self.BSSID=''
         self.IP='192.168.28.1'
         self.drange='192.168.28.30'
         self.dtime='24'
-        self.PASSWD='{Setup router password}'
+        self.PASSWD=''
         self.BASEDIR=['/root/']
         self.result={}
-        self.mail="{your mail id with less secure app permission}"
-        self.passwd="{mail password}"
-        self.num=1
+        self.mail=""
+        self.passwd=""
         self.BS=BASIC()
-        self.url=[]
-        self.clients=[]
-        self.arp={}
-        self.ipath=defaultdict(list)
-        self.ppath=defaultdict(list)
+        self.num=1
         self.lp='static/logs/info/'
         self.pp='static/logs/evidence/'
+        self.url=[]
+        self.clients=[]
+        self.ipath=defaultdict(list)
+        self.ppath=defaultdict(list)
         self.clients=open('static/APconf/accept','r').readlines()
 
     def pinit(self):
-        self.HO=HACKOUT()
+        self.SC=SCANNER()
+        self.SC.iscan()
         # wifi scanner
         print(colored('[i] information, [+] process information, [*] warning, [-] error','blue'))
         sleep(0.5)
@@ -56,7 +50,7 @@ class ROUTER:
         sleep(0.5)
         print(colored('[+] Selecting interface','blue'))
         sleep(0.5)
-        self.network,self.interface,self.run=self.HO.iface[0],[self.HO.iface[1],self.HO.iface[2]],self.HO.iface[3]
+        self.network,self.interface,self.run=self.SC.iface[0],[self.SC.iface[1],self.SC.iface[2]],self.SC.iface[3]
         print(colored('[+] Selected interfaces : ','blue'),colored(self.network+' '+str(self.interface),'green'))
         sleep(0.5)
         self.WF=WIFI(self.interface[1])
@@ -64,6 +58,7 @@ class ROUTER:
         self.athread=Thread(target=self.AP.start,args=(self.SSID,self.PASSWD,))
         self.athread.start()
         self.BSSID=psutil.net_if_addrs()[self.interface[0]][1].address
+        # self.DF=DFORENSICS(self.network,self.clients,self.BSSID)
         sleep(0.5)
         self.w=Thread(target=self.wstart)
         self.p=Thread(target=self.pstart)
@@ -80,9 +75,9 @@ class ROUTER:
         cont[-1]="HACKIN('"+self.url[0]+"')"
         open('static/modules/fileanalysis.py','w').write(''.join(cont))
 
+
     def start(self):
         try:
-            pass
             self.BS.rdesk()
             self.w.start()
             self.p.start()
@@ -97,34 +92,20 @@ class ROUTER:
                 wthread=Thread(target=self.WF.start)
                 wthread.start()
                 while wthread.is_alive(): pass
-                self.result[1]=copy.copy([self.WF.info,self.arp])
-                self.result[2]=copy.copy(self.HO.clientinfo)
-                self.result[3]=copy.copy([self.ipath,self.ppath])
-                # pprint.pprint(self.result)
-        except Exception as e: print(e)
+                self.result[1]=copy.copy([self.WF.info,self.SC.detail])
+                print(self.result)
+        except Exception as e: pass
 
     def pstart(self):
-        clients=[]
-        clientinfo=defaultdict(dict)
         try:
             while self.prun:
-                self.arp.clear()
-                for i,ans in enumerate(self.HO.arp()):
-                    self.arp[i+1]={'ip':ans[i].psrc,'mac':ans[i].hwsrc}
-                    cthread=Thread(target=self.HO.start,args=(ans[i].psrc,ans[i].hwsrc,))
-                    cthread.start()
-                    clients.append(cthread)
-                else:
-                    self.arp[0]={'ip':self.IP,'mac':self.BSSID}
-                    cthread=Thread(target=self.HO.start,args=(self.IP,self.BSSID,))
-                    cthread.start()
-                    clients.append(cthread)
-                for t in clients:
-                    while t.is_alive(): pass
-        except Exception as e: print(e)
+                cthread=Thread(target=self.SC.pscan,args=(self.IP,self.BSSID,))
+                cthread.start()
+                while cthread.is_alive(): pass
+                self.result[2]=copy.copy(self.SC.result)
+        except Exception as e: pass
 
     def fstart(self):
-        # try:
         cont=open('static/modules/forensics.py','r').readlines()
         cont[-1]="DFORENSICS('"+self.network+"',"+str(self.clients)+",'"+self.BSSID+"',"+str(self.num)+").pmstart()"
         open('static/modules/forensics.py','w').write(''.join(cont))
@@ -137,7 +118,7 @@ class ROUTER:
             for p,d,ff in os.walk(self.pp):
                 for f in ff:
                     self.ppath[f]=[os.path.join(p,f).replace('/','|'),None]
-        # except Exception as e: print(e)
+            self.result[3]=copy.copy([self.ipath,self.ppath])
 
     def stop(self):
         self.wstop()
@@ -151,44 +132,23 @@ class ROUTER:
 
     def wstop(self):
         self.WF.run=False
-        self.wrun=False
-        if self.wthread.is_alive(): main.w.join()
+        main.wrun=False
+        if main.w.is_alive(): main.w.join()
 
     def pstop(self):
-        self.prun=False
-        if self.pthread.is_alive(): main.p.join()
+        main.prun=False
+        if main.p.is_alive(): main.p.join()
 
     def fstop(self):
-        self.DF.terminatte()
+        main.frun=False
+        if main.f.is_alive(): main.f.join()
 
-    def xlsxWriter(self,path):
-        fpath='static/logs/xlsx/'+path.split('/')[-1].replace('.json','.xlsx')
-        jd={}
-        od=[]
-        data=json.load(open(path,'r'))
-        for d in data.keys():
-            try:pd.DataFrame(data[d])
-            except:jd[d]=[data[d]]
-        jd['scanned path']=data['files']['scanned path']
-        jd['total']=data['files']['total']
-        od.append(['System',pd.DataFrame(jd)])
-        od.append(['Storage',pd.DataFrame(data['storage'])])
-        od.append(['Process',pd.DataFrame(data['process'])])
-        for d in data['files']['detail']:od.append([d,pd.DataFrame(data['files']['detail'][d])])
-        writer=pd.ExcelWriter(fpath,engine='xlsxwriter')
-        for dt in od:dt[1].to_excel(writer,sheet_name=dt[0],startrow=0,startcol=0)
-        writer.save()
-
-    # Configuration process
     def config(self,ip,mac):
-        # Chrome selenium driver installation
-        yield 'Chrome driver installing'
-        chromedriver_autoinstaller.install()
-        yield 'Chrome driver installed'
-        # client configuration
         answered=srp(Ether(dst='ff:ff:ff:ff:ff:ff')/ARP(pdst=self.interfaces[self.iface[1]][1]),iface=self.iface[1],timeout=1,verbose=False)[0]
-        for i, ans in enumerate(answered): self.clients[i]=[ans[1].psrc,ans[1].hwsrc]
-        yield self.clients
+        for i, ans in enumerate(answered):
+            self.clients[i]=[ans[1].psrc,ans[1].hwsrc]
+            open('static/APconf/accept','a').write(ans[1].hwsrc+'\n')
+        self.clients=open('static/APconf/accept','r').readlines()
 
 app=Flask(__name__)
 
@@ -207,12 +167,6 @@ def index():
         else: return render_template('index.html',warning='invalid user ID or password')
     else: return render_template('index.html',warning='')
 
-@app.route('/config/',methods=['POST','GET'])
-def config():
-    if request.method=='POST': pass
-    else: yield render_template('config.html',main.config())
-    # open('static/APconf/accept','a').write(ans[1].hwsrc+'\n')
-
 @app.route('/monitor/')
 def monitor():
     if session['admin'] is not None: return jsonify(main.result)
@@ -223,13 +177,10 @@ def fileview(fname):
     cont=[]
     print(fname.replace('|','/'))
     if session['admin'] is not None:
-        with open(fname.replace('|','/'),'r') as fp:cont=fp.readlines()
-        return jsonify(cont[(len(cont)-10):-1])
+        with open(fname.replace('|','/'),'r') as fp:
+            cont=fp.readlines()
+        return jsonify(cont[(len(cont)-52):-1])
     else: return jsonify('Unauthorized access')
-
-@app.route('/static/')
-def scanme():
-    return "<a style='position:absolute;top:80%;left:50%;transform:translate(-50%,-50%);padding:1rem;background:linear-gradient(65deg,#F4D03F,#FCF3CF);text-decoration:none;color:black;border-radius:0.3rem;box-shadow:0px 0px 10px 2px black;font-size:large;margin:auto;align-self:center;text-shadow:2px 2px 5px black;' download='scanme.py' href='modules/fileanalysis.py'>Download</a>"
 
 @app.route('/upload/<fname>',methods=['POST'])
 def upload(fname):

@@ -1,14 +1,9 @@
 #!/bin/python3
 
 # Predefined modules
-import subprocess
-import os
-
-from threading import Thread
-from time import *
-from scapy.all import *
+from sets import *
 # Created modules
-# from static.modules.packages import *
+from static.modules.packages import *
 
 # classes
 
@@ -18,8 +13,8 @@ class WIFI:
         self.interface,self.run,self.info=interface,True,{}
         Thread(target=self.channel_changer).start()
         self.THRESH=6
-        self.ssidDict={}
-        self.ssidCnt={}
+        self.ssidDicct={}
+        self.ssidCtn={}
 
     def channel_changer(self):
         ch=1
@@ -66,21 +61,20 @@ class WIFI:
                     if wifi['clients'] not in self.info[wifi['bssid']]['clients']: self.info[wifi['bssid']]['clients'].append(wifi['clients'])
                 except:
                     if wifi['bssid'] not in self.info.keys() and len(wifi)>2: wifi['clients'],self.info[wifi['bssid']]=[],wifi
-            except Exception as e: print(e)
+            except: pass
 
     def fakeap(self,p):
-        if p.getlayer(Dot11).subtype==8:
+        if p.getlayer(Dot11).subtype==80:
             ssid=p[Dot11].info.decode()
             bssid=p[Dot11].addr2
             stamp=str(p[Dot11].timestamp)
             if bssid not in self.ssidDict:
                 self.ssidDict[bssid]=[]
                 self.ssidCnt[bssid]=0
-            elif(int(stamp)<int(self.ssidDict[bssid][len(self.ssidDict[bssid])-1])):
+            elif(long(stamp)<long(self.ssidDict[bssid][-1])):
                 self.ssidCnt[bssid]+=1
             if(self.ssidCnt[bssid]>self.THRESH):
-                return bssid
-            self.ssidDict[bssid].append(stamp)
+                return self.ssidDict[bssid].append(stamp)
         return None
 
 # hotspot
